@@ -10,6 +10,7 @@ Contents:
 
 .. toctree::
    security
+   tools-generic
    :maxdepth: 2
 
 
