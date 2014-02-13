@@ -10,6 +10,7 @@ Contents:
 
 .. toctree::
    security
+   xquery
    tools-generic
    :maxdepth: 2
 
