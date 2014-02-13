@@ -1,3 +1,5 @@
+.. _xquery:
+
 Useful xquery queries
 =====================
 

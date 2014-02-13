@@ -3,12 +3,16 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to IATI Developer Documentation's documentation!
-========================================================
+Welcome to the IATI Developer Documentation
+===========================================
+
+Note that this documentation is currently being put together, and is not very complete. For further developer information see the `IATI wiki <http://wiki.iatistandard.org/>`_.
+
 
 Contents:
 
 .. toctree::
+   data-quality
    security
    xquery
    tools-generic
