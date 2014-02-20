@@ -16,6 +16,7 @@ Contents:
    security
    xquery
    tools-generic
+   contributing
    :maxdepth: 2
 
 
