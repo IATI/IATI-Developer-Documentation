@@ -12,6 +12,7 @@ Note that this documentation is currently being put together, and is not very co
 Contents:
 
 .. toctree::
+   communication
    data-quality
    security
    xquery
