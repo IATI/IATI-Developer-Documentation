@@ -13,6 +13,7 @@ Contents:
 
 .. toctree::
    communication
+   community-about
    data-quality
    security
    xquery
