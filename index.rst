@@ -19,7 +19,7 @@ Contents:
    xquery
    tools
    tools-generic
-   contributing
+   contribute
    :maxdepth: 2
 
 
