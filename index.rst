@@ -9,7 +9,7 @@ Contents:
 .. toctree::
    communication
    community-about
-   code-checklist
+   code
    data-quality
    security
    xquery
