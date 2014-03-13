@@ -21,14 +21,19 @@ The creation of this checklist allows us to:
 -  allows us to test new work against the framework to make sure all the
    bases are covered.
 
+Project Checklists
+==================
+
+* `IATI-Dashboard <https://github.com/IATI/IATI-Dashboard/blob/master/CHECKLIST.rst>`_
+
+
 The checklist
 =============
 
 We should know which code is 'ours'
 -----------------------------------
 
-Generally IATI Code can be found here:
-`https://github.com/iati <https://github.com/iati>`__
+Generally IATI Code can be found here: https://github.com/IATI
 
 There may be rare instances of code that have yet to make it into the
 GitHub organisation account, but it is our desire and intention for all
