@@ -14,6 +14,7 @@ Contents:
 .. toctree::
    communication
    community-about
+   code-checklist
    data-quality
    security
    xquery
