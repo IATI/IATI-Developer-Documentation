@@ -41,3 +41,12 @@ Count distinct IATI Identifiers for a given reporting org
 
     count(distinct-values(//iati-activity[reporting-org/@ref='SE-6']/iati-identifier))
 
+Dates
+^^^^^
+
+Smallest start date
+
+.. code-block:: xquery
+
+   min(for $d in //activity-date[@type="start-planned" or @type="start-actual"]/@iso-date where ($d != '') return xs:date($d))
+
