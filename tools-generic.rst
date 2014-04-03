@@ -15,6 +15,8 @@ Issues
 
 * Some servers block wget's user agent. A different user agent can be supplied with -U, but I've also had these blocked.
 
+* Older versions of wget (e.g. 1.13.4) do not timeout properly if the connection hangs during the SSL/TLS certificate handshake. Additionally, even in the newest versions of wget, timeout behaviour varies depending on that SSL/TLS library is linked against. For timeouts during the handshake, the flag `--read-timeout` is needed if wget is linked against OpenSSL, whereas `--connect-timeout` is needed if wget is linked against GNUTLS.
+
 BaseX
 -----
 
