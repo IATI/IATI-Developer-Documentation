@@ -92,6 +92,11 @@ We should be able to monitor the performance of those servers
 
 We should be able to monitor the performance of the software
 
+Development versions should be clearly labelled when publicly available
+-----------------------------------------------------------------------
+
+Much of our code is deployed on development servers. Some of it is actively shared (i.e. we email people links, talk about it openly), other stuff is thrown up for testing. It should be clear to visitors to those versions that they are looking at/using a development version of the software.
+
 We should know how our code is being used - logs!
 -------------------------------------------------
 
