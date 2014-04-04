@@ -92,6 +92,11 @@ We should be able to monitor the performance of those servers
 
 We should be able to monitor the performance of the software
 
+Status of the software should be indicated in the deployments
+-------------------------------------------------------------
+
+For example, much of our code is deployed on development servers. Some of it is actively shared (i.e. we email people links, talk about it openly), other stuff is thrown up for testing, but may still be discoverable. It should be clear to visitors as to the status of that software (e.g. they are using a development version of the software). Moreover, we may be deploying software/service that are considered pre-Alpha, Alpha, Beta, properly stable etc..
+
 We should know how our code is being used - logs!
 -------------------------------------------------
 
