@@ -3,6 +3,13 @@ IATI Standard (Single Source of Truth)
 
 From 1.04, the IATI Documentation of the IATI Standard will be built from a "Single Source of Truth" (SSOT), which consists of several GitHub repositories.
 
+See also, the original :doc:`proposal <ssot/proposal>`.
+
+.. toctree::
+   :hidden:
+
+   ssot/proposal
+
 Repositories
 ------------
 
@@ -33,11 +40,3 @@ Versions prior to 1.04
 
 Prior to 1.04 the only github repository was IATI-Schemas, so this is the only repository with tags and branches for 1.01, 1.02 and 1.03.
 
-Rationale
----------
-
-Why github?
-^^^^^^^^^^^
-
-Why multiple repositories?
-^^^^^^^^^^^^^^^^^^^^^^^^^^
