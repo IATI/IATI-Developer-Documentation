@@ -179,8 +179,6 @@ Since codelists are now versioned as part of the Single Source of Truth,
 the @version and @date-last-modified attributes are now redundant, so
 will be removed.
 
-    TODO: Discuss changes to codelists
-
 A machine readable `mapping
 file <https://github.com/IATI/IATI-Codelists/blob/master/mapping.xml>`__ describes
 what elements and attributes use which codelists. (This does not
@@ -249,28 +247,30 @@ complexity of keeping mutliple branches properly in sync with the source
 repository. Generated data will still be availible, linked with specific source
 commits, see `Machine Consumption`_ for more information.
 
+.. _ssot-branches:
+
 Branches
 --------
 
-Main branches:
-
--  master - the main development branch, where development for the next
-   version of the standard takes place
--  version\_1.03 etc. - branch for each version,
+There is no master branch, since the IATI Update process means that a "general
+development" branch is not really appropriate. Instead there is a branch for
+each version of the standard - both those that have been released, and those
+that are in development. These are named ``version-<version number>``, e.g.
+``version-1.04`` and ``version-2.01``.
 
 These branches should be consistent across all the SSOT.
 
-Currently only the master branch exists, as it’s not clear what version
-of the standard we will target initially with the SSOT (1.03 or should
-it wait to 1.04). Also, no previous versions of the standard are not yet
-in the SSOT.
+Any changes that need review should be done on feature branches.
+
+These branches should be created as soon as development work is being done on
+that version of the standard. (Previously branches called 1.03dev and 1.04dev
+were created, but this naming cheme is not being used any more).
 
 There are also feature branches that are specific to individual
 repositories. These are for any changes that need reviewing/testing
 before they are merged into one of the main branches.
 
-    TODO: determine when feature branches should be used and when/if
-    committing directly to the main branches is appropriate.
+.. _ssot-tags:
 
 Tags
 ----
@@ -289,10 +289,9 @@ GitHub Issues
 -------------
 
 GitHub Issues are used for people to suggest changes to the IATI
-Standard.
-
-    TODO: Think about how this fits in with our current use of the
-    knowledge base
+Standard. However, any changes that require change control (the full
+consultation process), must also be posted in the Zendesk forum
+http://support.iatistandard.org/forums/20020808-Modifications-Additions-Improvements
 
 Issues are categorised using Milestones and Labels - only people with
 push access can add these. This means there is a task for one of us to
@@ -334,13 +333,6 @@ Default github labels:
 -  duplicate - for duplicate issues - only one of the issues should be
    tagged with this, and closed
 
-Custom labels - these should be added
-
--  Activity XML - for issues relating to the activity xml
--  Organisation XML - for issues relating to the organisation xml
-
-    TODO: Decide if these custom labels make sense, then add them to all SSOT repositories.
-
 Issues in correct repository
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -373,9 +365,12 @@ is considered to validate against the standard. This includes validation
 against the schema, conformance to rulesets and conformance to
 functional codelists.
 
-    TODO: Determine which codelists are functional codelists. (This is
-    likely to take place as part of a separate piece of work around
-    codelists.
+    Note:
+
+    This distinction has actually been implemented in terms of Embedded and 
+    NonEmbbedded codelists.
+    
+    https://github.com/IATI/IATI-Codelists#embedded-vs-nonembedded-codelists
 
 After a minor (decimal) release, (e.g. 1.03) is tagged, there should be
 no further functional changes to that versions branch (e.g.

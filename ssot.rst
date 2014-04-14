@@ -23,17 +23,13 @@ In addition there are codelists in another repository `IATI-Codelists-NonEmbedde
 
 The documentation on http://dev.iatistandard.org/ is then built then built from the contents of these repositories, and also two repositories containing documentation that is not specific to a particular version of the standard: `IATI-Guidance <https://github.com/IATI/IATI-Guidance>`__ and `IATI-Developer-Documentation <https://github.com/IATI/IATI-Developer-Documentation>`__.
 
-Branches
---------
+Finding a specific version of the SSOT
+--------------------------------------
 
-There is no master branch, since the IATI Update process means that a "general development" branch is not really appropriate. Instead there is a branch for each version of the standard - both those that have been released, and those that are in development. These are named ``version-<version number>``, e.g. ``version-1.04`` and ``version-2.01``.
+This can be done via:
 
-Any changes that need review should be done on feature branches.
-
-Tags
-----
-
-When each version is released, it is tagged (e.g. v1.04). Tags are static, and will not allow you to follow any fixes made to that version of the standard. For that, use branches instead.
+* branches, which may change for typos and bugfixes e.g. ``version-1.04``, see :ref:`ssot-branches`
+* tags, which point to the exact commit on the day of release e.g. ``v1.04``, see :ref:`ssot-tags`
 
 Versions prior to 1.04
 ----------------------
