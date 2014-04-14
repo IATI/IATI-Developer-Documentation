@@ -26,10 +26,12 @@ Any changes that need review should be done on feature branches.
 Tags
 ----
 
-Versions prior to 1.03
+When each version is released, it is tagged (e.g. v1.04). Tags are static, and will not allow you to follow any fixes made to that version of the standard. For that, use branches instead.
+
+Versions prior to 1.04
 ----------------------
 
-These are not properly included in the Github based SSOT.
+Prior to 1.04 the only github repository was IATI-Schemas, so this is the only repository with tags and branches for 1.01, 1.02 and 1.03.
 
 Rationale
 ---------
