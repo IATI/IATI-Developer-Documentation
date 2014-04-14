@@ -81,6 +81,8 @@ Pros:
    allow us to reduce the time between upgrades.
 -  It allows us to introduce non-functional changes between release
    cycles
+-  It is relatively easy for us to backup all of the information from github,
+   in case something goes wrong
 
 Cons:
 
@@ -126,6 +128,18 @@ The IATI Standard is, in practice, a collection of schemas, rulesets,
 codelists and explanatory text/extra documentation. These are all
 brought together as submodules of the IATI-Standard-SSOT repository, as
 described above.
+
+We chose to have separate repositories for each of these, in order to make it
+easier for a developer who only wanted to interact with one of the types of
+files, e.g. just codelists. Additionally a git repository already existed for
+the schemas.
+
+The downside of our approach is that it is harder to track the development
+between repositories. Github issues are assoiated with the appropriate
+repositories. Whilst this provides a useful grouping, it an be difficult to see
+all issues at once. To help with this problem, we have `a page on the dashboard
+<http://dashboard.iatistandard.org/milestones.html>`__ which links to the
+issues for all milestones belonging to all repositories in the IATI organisation.
 
 IATI-Standard-SSOT
 ~~~~~~~~~~~~~~~~~~
