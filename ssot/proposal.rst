@@ -99,7 +99,7 @@ Cons:
    documents
 -  It is easy perhaps too easy make changes without thinking them
    through
--  Reliance on Github (the “what if” they go down/sell out etc)
+-  Reliance on GitHub (the “what if” they go down/sell out etc)
 
 GitHub Architecture
 ===================
@@ -135,7 +135,7 @@ files, e.g. just codelists. Additionally a git repository already existed for
 the schemas.
 
 The downside of our approach is that it is harder to track the development
-between repositories. Github issues are assoiated with the appropriate
+between repositories. GitHub issues are assoiated with the appropriate
 repositories. Whilst this provides a useful grouping, it an be difficult to see
 all issues at once. To help with this problem, we have `a page on the dashboard
 <http://dashboard.iatistandard.org/milestones.html>`__ which links to the
@@ -419,7 +419,7 @@ Editing through the web interface
 ---------------------------------
 
 Anyone on the IATI Tech team who wants to edit the SSOT should be
-granted push access to the `Github Team`_, on the
+granted push access to the `GitHub Team`_, on the
 understanding that they do not edit directly edit on any of the main
 branches but create a `feature branch <Branches_>`_ for the
 change they are suggesting. A pull request can then be submitted to the
@@ -429,7 +429,7 @@ It is also possible (for IATI Tech team members and anyone else) to fork
 the SSOT and edit their own copy to incorporate the desired changes. A 
 pull request can then be submitted back to the relevant repository within
 the SSOT. The details of including the changes can be discussed via 
-Github's pull request queue.
+GitHub's pull request queue.
 
 
 Suggested improvements through GitHub issue
