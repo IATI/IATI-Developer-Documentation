@@ -47,7 +47,7 @@ Currently there are no known issues of this type. Previous problems:
 Blocking User Agents
 --------------------
 
-Some publishers web servers will block certain user agents, and sometimes IP addresses. This is probably a result of automated systems looking for "malicious" activity. This blocking is problematic, because one of the strengths of iATI data is that it can be programmatically downloaded.
+Some publishers web servers will block certain user agents, and sometimes IP addresses. This is probably a result of automated systems looking for "malicious" activity. This blocking is problematic, because one of the strengths of IATI data is that it can be programmatically downloaded.
 
 Server Side Caching
 -------------------
