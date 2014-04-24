@@ -4,8 +4,6 @@ Proposal: A Single Source of Truth for the IATI Standard
 This is a work in progress, and any suggested changes and improvements
 are welcome.
 
-Known tasks/issues are listed with the prefix TODO:
-
 
 .. contents::
 
@@ -218,13 +216,14 @@ and b) a json file containing xpath like this can be used in many
 programming languages (two examples above), unlike the constraints of
 the current xquery.
 
-The current rulesets in the draft SSOT have been created on the previous
-compliance tests. However, these are not necessarily what we want going
-forward, and should be split out into those rules that are definitely
-part of the standard (a start date is by definition before an end date)
-and those that should be split out into optional files.
-
-    TODO: Decide what rules we should have.
+There are various diferent rulesets for different purposes, see
+https://github.com/IATI/IATI-Rulesets#different-rulesets - the most important
+one for the standard is ``standard.json``, which contains a constraints that
+are actually part of the standard. In 1.04 this is very minimal, but required
+elements will be added in 2.01. This file is a much smaller number of rules
+than the previous compliance tests, which there is currently no equivalent of
+(but there is a `GitHub issue for this
+<https://github.com/IATI/IATI-Rulesets/issues/11>`__).
 
 Generated Repositories
 ----------------------
@@ -396,17 +395,15 @@ make a new release, and tell people to check the github to see what has
 changed since release. Or, we could have patch releases for such changes
 (e.g. 1.03.1). Alternatively, we could do a mixture of both, depending
 on how small the change is, and whether we want to announce it to
-everyone (e.g. correcting a typo vs. drastically rewording
-documentation).
-
-    TODO: Decide approach on this.
+everyone (e.g. correcting a typo vs. drastically rewording documentation).
 
 If used, patch releases would always be non-functional, so SHOULD NOT be
 listed in the @version attribute, in order to reduce the complexity for
 data complexity. We should have explicit guidance about what values the
 @version attribute should contain.
 
-Tracking Changes a guide for users/followers
+The current plan is to make changes to branches and the website, and not have
+patch releases.
 
 Updating the SSOT
 =================
