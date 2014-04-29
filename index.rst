@@ -1,7 +1,9 @@
 IATI Developer Documentation
 ============================
 
-Note that the developer documentation is currently being consolidated to this website. Some of it is still in other places, suach as the `IATI wiki <http://wiki.iatistandard.org/>`_.
+This section contains various pieces documentation targetted at developers interested in using and/or publishing IATI data.
+
+Note that we are in the process of consolidating all developer documentation into this website. Currently, some documentation is still located elsewhere, such as on the `IATI wiki <http://wiki.iatistandard.org/>`_.
 
 
 Contents:

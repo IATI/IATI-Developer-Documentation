@@ -1,5 +1,9 @@
-Problems Accessing Data
-=======================
+Problems Accessing IATI Data
+============================
+
+This page details some of the common problems that developers face when accessing IATI Data, and how they can avoid some of the problems. It also provides suggestions for publishers to ensure their data is easy to access.
+
+.. contents::
 
 HTTPS
 -----
@@ -11,13 +15,13 @@ Publishers can avoid these problems by not using HTTPS, although this means losi
 Verifying Certificates
 ^^^^^^^^^^^^^^^^^^^^^^
 
-Sometimes the problems lies with verifying the certificate. This can be due to an out of date list of Certificate Authorities (CAs) on the client side, or certificate misconfiguration by the publisher.
+Sometimes the problem lies with verifying the certificate. This can be due to an out of date list of Certificate Authorities (CAs) on the client side, or certificate misconfiguration by the publisher.
 
 In the first case, the client should ideally update their CA list, but this can be quite cumbersome to do.
 
 In the case of publisher misconfiguration, this should be fixed by the publisher, but this may be difficult for us to detect and demonstrate to them, because problematic certificates may work in some applications (especially web browsers). A common problem is that the intermediary certificate is not supplied by the server.
 
-One way for a data consumer to sidestep this problem problem by not verifying HTTPS certificates, but this is not an ideal response. For wget this can be achieved with the `--no-check-certificate` flag. `IATI-Registry-Refresher <https://github.com/IATI/IATI-Registry-Refresher>`__, which powers the Dashboard, uses this approach. The registry, on the other hand, does try to verify certificates when fetching metadata about a file.
+One way for a data consumer to sidestep this problem problem, is by not verifying HTTPS certificates, but this is not an ideal response. For wget this can be achieved with the `--no-check-certificate` flag. `IATI-Registry-Refresher <https://github.com/IATI/IATI-Registry-Refresher>`__, which powers the Dashboard, uses this approach. The registry, on the other hand, does try to verify certificates when fetching metadata about a file.
 
 Current issues:
 
@@ -43,13 +47,14 @@ Currently there are no known issues of this type. Previous problems:
 
 * https://groups.google.com/forum/#!msg/iati-technical/oHu8alQJxZQ/C-aJWw4BB-oJ
 
+.. _block_user_agents:
 
 Blocking User Agents
 --------------------
 
-Some publishers web servers will block certain user agents, and sometimes IP addresses. This is probably a result of automated systems looking for "malicious" activity. This blocking is problematic, because one of the strengths of IATI data is that it can be programmatically downloaded.
+Some publishers' web servers will block certain user agents, and sometimes IP addresses. This is probably a result of automated systems looking for "malicious" activity. This blocking is problematic, because one of the strengths of IATI data is that it can be programmatically downloaded.
 
 Server Side Caching
 -------------------
 
-Some publishers data is served behind caching software, most commonly `Varnish <https://www.varnish-cache.org/>`__. This can be problematic, because the most recent version may not be served.
+Some publishers' data is served behind caching software, most commonly `Varnish <https://www.varnish-cache.org/>`__. This can be problematic, because the most recent version may not be served.

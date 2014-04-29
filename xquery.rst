@@ -1,20 +1,22 @@
 .. _xquery:
 
-Useful xquery queries
+Useful XQuery queries
 =====================
 
-A good graphical interface for running these is `BaseX <http://basex.org/>`_.
+XQuery is a query language for querying XML files. This page provides some useful example queries for working with IATI data. A good graphical interface for running these queries is `BaseX <http://basex.org/>`_.
+
+Many of the queries below are also valid XPath, since XPath is a subset of XQuery.
 
 Activities missing information
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-which activities are missing the Implementing Org?
+Which activities are missing the Implementing Org?
 
 .. code-block:: xquery
 
      //iati-activity[not(participating-org/@role='Implementing')]
 
-which activities are missing Commitments?
+Which activities are missing Commitments?
 
 .. code-block:: xquery
 
@@ -23,19 +25,19 @@ which activities are missing Commitments?
 Counting distinct activities
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Count distinct IATI Identifier
+Count distinct IATI Identifiers
 
 .. code-block:: xquery
 
     count(distinct-values(//iati-activity/iati-identifier))
 
-Percentage unique activity identifiers
+Percentage of activities with unique activity identifiers
 
 .. code-block:: xquery
 
     count(distinct-values(//iati-activity/iati-identifier)) div count(//iati-activity/iati-identifier) * 100
 
-Count distinct IATI Identifiers for a given reporting org
+Count distinct IATI Identifiers for a given reporting organisation
 
 .. code-block:: xquery
 

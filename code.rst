@@ -8,8 +8,7 @@ IATI Code
 What is IATI Code?
 ------------------
 
-IATI Code is defined as code that the IATI technical team have to look
-after.
+IATI Code is defined as code that the IATI Technical Team look after directly.
 
 This may be custom code that has been written specifically to perform
 tasks for IATI, or it could be 'off the shelf' code that we need to
@@ -72,7 +71,7 @@ with access to key tools for managing that code:
 -  version control
 
 etc - most of the things an open source code project needs (See
-communication below)
+:ref:`code_communication` below)
 
 Domains
 -------
@@ -115,8 +114,10 @@ Branding
 --------
 
 IATI does not currently have a coherent policy on branding, but there
-are some established conventions that can be followed - e.g. there is a
-logo.
+are some established conventions that can be followed for code 'owned' by the
+Technical Team - e.g. there is a logo.
+
+.. _code_communication:
 
 Communicating
 -------------

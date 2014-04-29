@@ -1,7 +1,9 @@
 IATI Standard (Single Source of Truth)
 ======================================
 
-From 1.04, the IATI Documentation of the IATI Standard will be built from a "Single Source of Truth" (SSOT), which consists of several GitHub repositories.
+    This documentation is about how the standard is stored and versioned. For the actual text of the standard, please see http://iatistandard.org/activities-standard/ and http://iatistandard.org/organisation-standard/
+
+As of 1.04, the IATI Documentation of the IATI Standard is built from a "Single Source of Truth" (SSOT), which consists of several GitHub repositories.
 
 See also, the original :doc:`proposal <ssot/proposal>`.
 

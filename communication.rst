@@ -8,6 +8,11 @@ IATI Tech Team
 
 The IATI Tech Team are responsible for maintaining the http://iatistandard.org website, and the `IATI github repository <https://github.com/IATI>`_. You can contact us at code@iatistandard.org
 
+The TAG
+-------
+
+The TAG is the IATI Technical Advisory Group. Developers are encouraged to sign up for the TAG newsletter. More information at http://www.aidtransparency.net/governance/tag.
+
 Community
 ---------
 
