@@ -48,7 +48,7 @@ Each Week we...
 Documentation
 -------------
 
-We will build Developer Documentation using the same approach as the SSOT - this means taking material from the wiki and slowly closing that down, and building better documentation specifically targeted at developers. We should also link more prominently to our developer documentation that we currently do to the wiki.This would also then be available on the iatistandard.org website. See http://dev.iatistandard.org/developer/
+We will build Developer Documentation using the same approach as the SSOT - this means taking material from the wiki and slowly closing that down, and building better documentation specifically targeted at developers. We should also link more prominently to our developer documentation that we currently do to the wiki. This would also then be available on the iatistandard.org website. See http://iatistandard.org/developer/
 
 Each software project in our `GitHub Organisation repositories <https://github.com/IATI>`_ should have information for developers about how they can be involved in that project. 
 

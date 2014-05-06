@@ -6,7 +6,7 @@ Note that this documentation is currently being put together, and is not very co
 Viewing the Documentation
 -------------------------
 
-You can view this documentation at http://dev.iatistandard.org/developer/ - or here on github.
+You can view this documentation at http://iatistandard.org/developer/ - or here on github.
 
 Building the Documentation
 --------------------------

@@ -476,7 +476,7 @@ be tedious if they haven't got the necessary software installed.
 
 Therefore, converted and original versions of machine readable data will be
 availible in a folder of the iatistandard website.
-e.g. http://dev.iatistandard.org/_static/codelists/
+e.g. http://iatistandard.org/codelists/downloads/
 
 Case Studies
 ------------
