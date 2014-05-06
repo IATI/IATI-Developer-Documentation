@@ -416,7 +416,7 @@ Editing through the web interface
 ---------------------------------
 
 Anyone on the IATI Tech team who wants to edit the SSOT should be
-granted push access to the `GitHub Team`_, on the
+granted push access to the GitHub Team, on the
 understanding that they do not edit directly edit on any of the main
 branches but create a `feature branch <Branches_>`_ for the
 change they are suggesting. A pull request can then be submitted to the
