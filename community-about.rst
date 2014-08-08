@@ -26,12 +26,12 @@ Yes and no. While there is some infrastructure in place, we already know it is n
 What's already in place?
 ------------------------
 
-* IATI GitHub account - has our code, our issues, and our milestones
-* Google Group - there is a mailing list in place
-* Wiki - our wiki, while not without problems is a place for collaboration
-* IATI Standard website - has some documentation about the standard, but is not developer specific
-* Data Tickets - a place to report problems with data
-* Data Dashboard - our project to try to get an overview of the figures that help us get our work done.
+* `IATI GitHub account <https://github.com/IATI/>`__ - has our code, our issues, and our milestones
+* `Google Group <https://groups.google.com/forum/#!forum/iati-technical>`__ - there is a mailing list in place
+* `Wiki <http://wiki.iatistandard.org/>`__ - our wiki, while not without problems is a place for collaboration
+* `IATI Standard website <http://iatistandard.org>`__ - has some documentation about the standard, but is not developer specific
+* `Data Tickets <http://data.tickets.iatistandard.org/>`__ - a place to report problems with data
+* `Data Dashboard <http://dashboard.iatistandard.org/>`__ - our project to try to get an overview of the figures that help us get our work done.
 
 We recognise that some of the services above need love and attention or re-thinking completely.
 
