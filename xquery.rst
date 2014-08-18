@@ -25,6 +25,12 @@ Which activities are missing Commitments?
 Counting distinct activities
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Count number of activities
+
+.. code-block:: xquery
+
+    count(//iati-activity)
+
 Count distinct IATI Identifiers
 
 .. code-block:: xquery
@@ -52,3 +58,25 @@ Smallest start date
 
    min(for $d in //activity-date[@type="start-planned" or @type="start-actual"]/@iso-date where ($d != '') return xs:date($d))
 
+Budgets
+^^^^^^^
+
+Find budgets that have start dates after a certain date  
+(replace yyyymmdd with year, month, and day. e.g. 1st Sept. 2013 would be 20130901])
+
+.. code-block:: xquery
+
+    //budget[number(translate(period-start/@iso-date,'-','')) > yyyymmdd]
+
+Find the activities that have a budget with a start date after a certain date  
+(append /.. )
+
+.. code-block:: xquery
+    
+    //budget[number(translate(period-start/@iso-date,'-','')) > yyyymmdd]/..
+
+Find the iati-identifiers of budgets that have start dates after a certain date
+
+.. code-block:: xquery
+    
+    //budget[number(translate(period-start/@iso-date,'-','')) > yyyymmdd]/..//iati-identifier
