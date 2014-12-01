@@ -187,3 +187,8 @@ including upgrades should be considered.
 Are we using any other tools to help us monitor our code?
 ---------------------------------------------------------
 For example, linking into webhooks or services such as Travis
+
+Is this code language aware?
+----------------------------
+Can it handle unicode correctly?
+Does it need to handle translations and display text in differnet scripts?
