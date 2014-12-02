@@ -35,15 +35,10 @@ What's already in place?
 
 We recognise that some of the services above need love and attention or re-thinking completely.
 
-In addition the following could happen now...
+Communication
+-------------
 
-Each Week we...
----------------
-
-* run an open IRC channel during our work hours - #iati on Freenode
-* have a weekly informal 'stand-up' on #iati IRC (Thursdays 3pm London time) - a definite time to find us to be in IRC land and to say what we are working on. (The stand-up should be logged, and any relevant information written up and passed back to the technical list.)
-* send a weekly email on Wednesday lunchtime "this week in IATI". This includes a call to join the weekly standup.
-* wite a blog post (http://iati.github.io/ ) - Steven, David, Ben,  (Kriss/Shi) should take it in turns to write a weekly blog post on the past weeks events.
+In the past we used to run an open IRC channel during our work hours - #iati on Freenode. We also tried to hold a weekly informal 'stand-up' on #iati IRC (Thursdays 3pm London time). For a short while we sent a weekly email and we tried to wite a blog regular post (http://iati.github.io/). However, we found that with stretched resources, we were unable to keep these channels of communication going. Currently you can contact the IATI developers via the `Google Group <https://groups.google.com/forum/#!forum/iati-technical>`__, or the contact details given at the `IATI GitHub account <https://github.com/IATI/>`__.
 
 Documentation
 -------------
