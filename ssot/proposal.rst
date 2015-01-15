@@ -177,52 +177,66 @@ IATI-Codelists
 ~~~~~~~~~~~~~~
 
 The codelists in
-`https://github.com/IATI/IATI-Codelists <https://github.com/IATI/IATI-Codelists>`__ have
-been donwloaded from the data.aidinfolabs.org site. The structure of the
-XML files was then updated to be more consistent, and conform to a
-`codelist
-schema <https://github.com/IATI/IATI-Codelists/blob/master/codelist.xsd>`__.
-This new structure is not compatible with the old one - to provide
-backwards compatibility with tools that expect the old codelist
-structure, we could have our ‘API’ do this conversion, or just create a
-static mirror of the old codelists and deprecate it.
+`https://github.com/IATI/IATI-Codelists <https://github.com/IATI/IATI-Codelists>`__ 
+were imported into the Single Source of Truth in version-1.04 of the 
+IATI Standard. They were  downloaded from their previous home at 
+data.aidinfolabs.org, but then the structure of the XML files was 
+updated to be more consistent, and to conform to a codelist
+schema.
+
+Since then codelists have been given their own branch associated with the 
+version of the IATI Standard to which they apply.
+
+The codelist schema for each branch can be found at the root of the repository.
+e.g. for 2.01 https://github.com/IATI/IATI-Codelists/blob/version-2.01/codelist.xsd.
+ 
+The structure of version 1.04 onwards codelist XML is not compatible with
+previous verisons. The XML structure used for version 2.01 is different to 
+that used in version 1.x.
+
+However, to maintian backwards compatibility within each integer version
+with tools that expect the old codelist structure there are various options
+for codelist users. See http://iatistandard.org/codelists/codelist-api/
+for more information.
 
 Since codelists are now versioned as part of the Single Source of Truth,
-the @version and @date-last-modified attributes are now redundant, so
-will be removed.
+they no longer contain @version and @date-last-modified attributes.
 
-A machine readable `mapping
-file <https://github.com/IATI/IATI-Codelists/blob/master/mapping.xml>`__ describes
-what elements and attributes use which codelists. (This does not
-currently exist). It was not practical to do this using file naming
-conventions since each a codelist can be used in several places.
+A machine readable mapping file at the root of each branch describes
+what elements and attributes use which codelists.  For example the mapping
+file for 2.01 can be found at: 
+https://github.com/IATI/IATI-Codelists/blob/version-2.01/mapping.xml 
 
 IATI-Rulesets
 ~~~~~~~~~~~~~
 
-The rulesets
-`https://github.com/IATI/IATI-Rulesets/blob/master/rulesets/standard.json <https://github.com/IATI/IATI-Rulesets/blob/master/rulesets/standard.json>`__ have
-been created afresh, in a new easy to parse JSON format. This is very
-much a work in progress, and more information can be found at `<https://github.com/IATI/IATI-Rulesets/blob/master/README.rst>`__
+As of version 1.04 the rulesets were created afresh, in a new easy to
+parse JSON format and included in the Single Source of Truth.
 
-`Python <https://github.com/IATI/IATI-Rulesets/blob/master/testrules.py>`__ and
-`PHP <https://github.com/IATI/IATI-Rulesets/blob/master/testrules.php>`__ libraries
-for testing against these rulesets - with the idea that it should be
-easy to write one for any other programming language.
+Again rulesets are tied to versions of the IATI Standard, so we maintain
+them in their own branches.
 
-This is a drastic change from what we had previously, but I believe it
-is appropriate since a) the previous machine rulesets weren’t official,
+Each branch has more information in its own README.rst
+
+Python and PHP libraries have been added for testing against these
+rulesets - with the idea that it should be easy to write one for any
+other programming language. Look for ``testrules.py`` and ``testrules.php``.
+
+This is a drastic change from what we had prior to version 1.04, but is
+more appropriate since a) the previous machine rulesets weren’t official,
 and b) a json file containing xpath like this can be used in many
 programming languages (two examples above), unlike the constraints of
-the current xquery.
+the previous xquery rules.
 
 There are various diferent rulesets for different purposes, see
 https://github.com/IATI/IATI-Rulesets#different-rulesets - the most important
 one for the standard is ``standard.json``, which contains a constraints that
-are actually part of the standard. In 1.04 this is very minimal, but required
-elements will be added in 2.01. This file is a much smaller number of rules
-than the previous compliance tests, which there is currently no equivalent of
-(but there is a `GitHub issue for this
+are actually part of the standard. In 1.04 this is far from comprehensive.
+In version 2.01 of the IATI Standard the schema enforces many more rules
+directly.
+
+There is currently no equivalent of the rulesets produced prior to 
+version 1.04 of the IATI Standard (but there is a `GitHub issue for this
 <https://github.com/IATI/IATI-Rulesets/issues/11>`__).
 
 Generated Repositories
@@ -319,9 +333,8 @@ Assignment
 ~~~~~~~~~~
 
 Issues can be assigned to a the person responsible for carrying out the
-next action on them. A list of all issues assigned to your logged in
-user can be seen at
-`https://github.com/organizations/IATI/dashboard/issues/assigned <https://github.com/organizations/IATI/dashboard/issues/assigned>`__
+next action on them. A list of all issues for the IATI organisation can 
+be found at https://github.com/issues?user=IATI
 
 Milestones
 ~~~~~~~~~~
@@ -451,8 +464,8 @@ generated from the Single Source of Truth.
 Text generated from the machine readable sources is combined with the
 extra documentation, which is then fed into Sphinx documentation tool.
 The scripts for doing this are in the IATI-Standard-SSOT repository, and
-the full technical instructions are in the
-`README <https://github.com/IATI/IATI-Standard-SSOT/blob/master/README.rst#building-the-documentation>`__ there.
+the full technical instructions are in the README.rst. For example, for version 2.01:
+https://github.com/IATI/IATI-Standard-SSOT/blob/version-2.01/README.rst
 
 This automated process for documentation generation makes it easy to
 generate the documentation in other formats, such as a single pages html
@@ -495,10 +508,6 @@ Plan
 Much of the technical backend of the Single Source of Truth is set up
 now. The big next step is to work on the human processes of managing the
 git repositories properly etc.
-
-We can do this in tandem with our work on 1.04 - `<http://dev.iatistandard.org>`__
-has been set up to build from the Single Source of Truth, and this will
-become the new website when 1.04 is released.
 
 
 Current versions of the standard
