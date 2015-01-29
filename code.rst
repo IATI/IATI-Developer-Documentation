@@ -3,6 +3,7 @@ IATI Code
 
 .. toctree::
    code-checklist
+   code-python
    :hidden:
 
 What is IATI Code?
@@ -72,6 +73,18 @@ with access to key tools for managing that code:
 
 etc - most of the things an open source code project needs (See
 :ref:`code_communication` below)
+
+External Testing Services
+-------------------------
+
+We use the following external services to test our code in various ways:
+
+* `Travis <https://travis-ci.org/>`__ - runs unit tests every time a commit is made
+* `Coveralls <https://coveralls.io/>`__ - checks the coverage of those unit tests
+* `Requires.io <https://requires.io>`__ (Python specific) - tests to see whether the Python moudles listed in requirements.txt are up to date (see :ref:`python_dependency_pinning` for more)
+* `Landscape <https://landscape.io/>`__ (Python specific) - calculates the quality of the code using static analysis, and tracks this over time
+
+A public link to the results of each of these service can be found at the top of the README of each covered project.
 
 Domains
 -------
