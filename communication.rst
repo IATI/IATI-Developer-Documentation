@@ -16,7 +16,7 @@ The TAG is the IATI Technical Advisory Group. Developers are encouraged to sign 
 Community
 ---------
 
-There is an IATI Technical mailing list at https://groups.google.com/forum/#!forum/iati-technical
+There is an IATI Discuss community forum at https://discuss.iatistandard.org
 
 We use #iati on irc.freenode.net (`webchat <http://webchat.freenode.net?channels=%23iati>`_), although there will not always be people present. The best time to join is during our informal weekly meetings on Thursday at 15:00 UTC (16:00 CET, 10:00 EST).
 
