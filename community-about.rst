@@ -5,9 +5,9 @@ IATI Developer Community
 What's already in place?
 ------------------------
 
-* `IATI GitHub account <https://github.com/IATI/>`__ - has our code, our issues, and our milestones
-* `Discuss Page <https:http://discuss.iatistandard.org/>`__ - a place to discuss all things IATI
-* `IATI Standard website <http://iatistandard.org>`__ - has some documentation about the standard, but is not developer specific
+* `IATI GitHub account <https://github.com/IATI/>`__ - hosts the code used in IATI websites, tools and services (we use the 'issues' functionality to log feature requests, bugs and enhancements  within each code repository)
+* `Discuss Forum <https:http://discuss.iatistandard.org/>`__ - a place to discuss all things IATI
+* `IATI Standard website <http://iatistandard.org>`__ - has documentation about the standard
 * `IATI Support and Consultations <http://support.iatistandard.org>`__ - the first port of call for requesting support with publishing or using IATI data
 * `Data Dashboard <http://dashboard.iatistandard.org/>`__ - our project to try to get an overview of the figures that help us get our work done.
 
