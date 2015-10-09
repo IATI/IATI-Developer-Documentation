@@ -146,7 +146,7 @@ party tools that we manage in order to do this (e.g. Discourse).
 Current communication options with other audiences are via:
 
 -  the `IATI Discussion Page <http://discuss.iatistandard.org/>`__, and
--  via `GitHub <https://github.com/IATI/>`__ 'issues'
+-  via `GitHub <https://github.com/IATI/>`__ (we use the 'issues' functionality to log feature requests, bugs and enhancements  within each code repository).
 
 Workplans
 ---------
