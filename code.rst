@@ -140,16 +140,13 @@ within the team, with other developers, bug reporters, and users of the
 software.
 
 Internally we need to talk about our code, projects, tasks, bugs, etc -
-we may use third party services e.g. google group, or install third
-party tools that we manage in order to do this (e.g. trac).
+we may use third party services e.g. GitHub, or install third
+party tools that we manage in order to do this (e.g. Discourse).
 
 Current communication options with other audiences are via:
 
--  the IATI TAG google group,
--  the IATI Announce google group, and
--  via GitHub 'issues'
--  #iati on IRC Freenode
--  blog at `http://iati.github.io/ <http://iati.github.io/>`__
+-  the `IATI Discussion Page <http://discuss.iatistandard.org/>`__, and
+-  via `GitHub <https://github.com/IATI/>`__ 'issues'
 
 Workplans
 ---------
