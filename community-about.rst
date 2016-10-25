@@ -6,9 +6,9 @@ What's already in place?
 ------------------------
 
 * `IATI GitHub account <https://github.com/IATI/>`__ - hosts the code used in IATI websites, tools and services (we use the 'issues' functionality to log feature requests, bugs and enhancements  within each code repository)
-* `Discuss Forum <https:http://discuss.iatistandard.org/>`__ - a place to discuss all things IATI
+* `IATI Community (support & forum) <http://discuss.iatistandard.org/t/welcome-to-iati-discuss/>`__ - a place to discuss all things IATI
 * `IATI Standard website <http://iatistandard.org>`__ - has documentation about the standard
-* `IATI Support and Consultations <http://support.iatistandard.org>`__ - the first port of call for requesting support with publishing or using IATI data
+* `IATI Standard Consultations <http://discuss.iatistandard.org/c/standard-management/>`__ - the first port of call for requesting support with publishing or using IATI data
 * `Data Dashboard <http://dashboard.iatistandard.org/>`__ - our project to try to get an overview of the figures that help us get our work done.
 
 We recognise that some of the services above need servicing and attention or re-thinking completely.
@@ -26,7 +26,7 @@ They may be data users and/or data publishers, but generally they are the 'coder
 Communication
 -------------
 
-Currently you can contact the IATI developers via the `IATI discussion page <https://http://discuss.iatistandard.org/>`__, or if the issue is a recommended code fix, through the `IATI GitHub account <https://github.com/IATI/>`__.
+Currently you can contact the IATI developers via the `IATI discussion page <http://discuss.iatistandard.org/t/welcome-to-iati-discuss/>`__, or if the issue is a recommended code fix, through the `IATI GitHub account <https://github.com/IATI/>`__.
 
 Documentation
 -------------
