@@ -19,4 +19,3 @@ Contents
    user-guide/how-is-the-data-organised-and-retrieved
    user-guide/how-is-the-data-updated
    user-guide/tips-pitfalls-and-warnings
-   user-guide/support
