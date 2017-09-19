@@ -36,6 +36,11 @@ How to access the Datastore
 
 * For those wishing to just access the data in CSV format, an :doc:`online form </csv-query-builder/>` is available to assist with queries
 
+What is the current status of the Datastore?
+--------------------------------------------
+
+The Datastore is currently in alpha. Therefore, data queries may sometimes result in unexpected outputs. In particualar, invalid publisher data has been known to cause problems when importing data into the Datastore.
+
 Are there any limitations on the Datastore?
 -------------------------------------------
 
