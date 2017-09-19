@@ -10,7 +10,7 @@ Contents:
 
 .. toctree::
    :titlesonly:
-   
+
    communication
    community-about
    ssot
@@ -20,6 +20,7 @@ Contents:
    security
    xquery
    tools
+   datastore
    tools-generic
    contribute
 
