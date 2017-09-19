@@ -111,5 +111,5 @@ In its current format the store allows you to filter IATI activities by publishe
 |fss                  | no   | no   | no   |
 +---------------------+------+------+------+
 
-In its current CSV format the store allows three different row outputs: where each row represents an activity, transaction or budget item. In future sub-national geographic information and results reporting will also be available.
+In its current CSV format the store allows three different row outputs: where each row represents an activity, transaction or budget item. The sub-formats are similar to their parent format with the addition of Sector/Country and Percentage columns on the left-hand side of the sheet.
 

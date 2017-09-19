@@ -18,7 +18,5 @@ Contents
    user-guide/what-kind-of-information-are-you-looking-for
    user-guide/how-is-the-data-organised-and-retrieved
    user-guide/how-is-the-data-updated
-   user-guide/how-is-the-csv-data-displayed
-   user-guide/selecting-data-for-csv-output
    user-guide/tips-pitfalls-and-warnings
    user-guide/support
