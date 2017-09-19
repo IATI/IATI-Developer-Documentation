@@ -4,14 +4,14 @@ What kind of information are you looking for?
 Are you a developer or tech-savvy infomediary?
 ----------------------------------------------
 
-The Datastore does not have its own front end. All access is through its API which is :doc:`documented here </api/>` with additional information on :doc:`errors here </api/error>`. Source code and further discussion is available on `Github <https://github.com/IATI/iati-datastore>`__.
+The Datastore does not have its own front end. All access is through its API which is :doc:`documented here </datastore/api>` with additional information on :doc:`errors here </datastore/error-api>`. Source code and further discussion is available on `Github <https://github.com/IATI/IATI-Datastore>`__.
 
 Please be sure to read the guidance in this user guide to understand the scope, and potential pitfalls, of using the data.
 
 Are you looking for selections of data that can be viewed and analysed in a spreadsheet?
 ----------------------------------------------------------------------------------------
 
-The :doc:`Datastore CSV Query Form </csv-query-builder/>` will help you to build selections that you can download in CSV format which will open in your chosen spreadsheet application.
+The :doc:`Datastore CSV Query Builder <http://datastore.iatistandard.org/query/>` will help you to build selections that you can download in CSV format which will open in your chosen spreadsheet application.
 
 Please be sure to read the guidance in this user guide to understand the scope, and potential pitfalls, of using the data.
 
