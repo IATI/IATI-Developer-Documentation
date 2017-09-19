@@ -15,7 +15,6 @@ Contents
 .. toctree::
    :titlesonly:
 
-   user-guide/what-is-the-iati-data-store
    user-guide/what-kind-of-information-are-you-looking-for
    user-guide/how-is-the-data-organised-and-retrieved
    user-guide/how-is-the-data-updated
