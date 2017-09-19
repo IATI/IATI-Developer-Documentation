@@ -32,9 +32,9 @@ This repository is called a store, not a database, because it cannot be used as 
 How to access the Datastore
 ---------------------------
 
-* :doc:`An API </datastore-api/>` is available that enables people to construct queries.
+* :doc:`An API </datastore/api>` is available that enables people to construct queries.
 
-* For those wishing to just access the data in CSV format, an :doc:`online form </csv-query-builder/>` is available to assist with queries
+* For those wishing to just access the data in CSV format, an `online form <http://datastore.iatistandard.org/query/>`__ is available to assist with creating queries
 
 What is the current status of the Datastore?
 --------------------------------------------
