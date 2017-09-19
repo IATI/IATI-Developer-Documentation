@@ -2,9 +2,12 @@ IATI Datastore
 ==============
 
 .. toctree::
-   datastore/api
-   datastore/error-api
-   :hidden:
+    :titlesonly:
+
+    datastore/api
+    datastore/error-api
+    datastore/user-guide
+
 
 What is the IATI Datastore?
 ---------------------------

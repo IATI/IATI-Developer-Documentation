@@ -6,8 +6,6 @@ Datastore API
 .. toctree::
   :glob:
 
-  error-api
-
 Available data
 --------------
 
