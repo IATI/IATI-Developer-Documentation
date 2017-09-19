@@ -18,4 +18,4 @@ Please be sure to read the guidance in this user guide to understand the scope, 
 Are you looking for ready-to-use visualisations, maps or presentable information?
 ---------------------------------------------------------------------------------
 
-You’ve come to the wrong place, but there are an increasing number of sites being built using IATI data. Most sites currently available are publisher-specific portals – built by organisations to showcase their own activities. A country portal displaying all activities in a particular country is currently under construction. Here is a `list <tools>`__ detailing some of what is available.
+You’ve come to the wrong place, but there are an increasing number of sites being built using IATI data. Most sites currently available are publisher-specific portals – built by organisations to showcase their own activities. A country portal displaying all activities in a particular country is currently under construction. Here is a :doc:`list </tools>` detailing some of what is available.
