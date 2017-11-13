@@ -42,7 +42,7 @@ Generally speaking we expect all contributions to adhere to the following conven
 
    -  Consider `other kinds of code smell <https://sourcemaking.com/refactoring/smells>`_.
 
--  Use pyIATI <https://github.com/IATI/pyIATI>`_ wherever possible:
+-  Use `pyIATI <https://github.com/IATI/pyIATI>`_ wherever possible:
 
    -  We have built this library with the intention of reducing the need to reinvent the wheel. We want to improve the time it takes for external developers to contribute to our code base. As time goes on pyIATI will have increased functionality for many common tasks needed to interface with IATI data. Keep an eye on the `changelog <https://github.com/IATI/pyIATI/blob/master/CHANGELOG.md>`_ for updates on what pyIATI can do and planned improvements.
 
