@@ -16,7 +16,7 @@ It is important to remember that IATI is still a relatively young project and so
 infrastructure <https://discuss.iatistandard.org/t/introducing-the-iati-python-library/720>`_ and we believe it exemplifies our move towards stronger architecture and adoption of industry-standard best practices wherever possible and be consistent with the coding style used with this project whenever possible.
 
 For guiding principles we use: `PEP8 <https://www.python.org/dev/peps/pep-0008/>`_ and the `Google Python Style
-Guide <https://google.github.io/styleguide/pyguide.html>`_ (with a few tweaks).
+Guide <https://google.github.io/styleguide/pyguide.html>`_.
 
 Generally speaking we expect all contributions to adhere to the following conventions:
 
