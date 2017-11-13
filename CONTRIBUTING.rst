@@ -5,7 +5,7 @@ IATI is a living project with a number of tools that are owned by the IATI Secre
 
 Please follow this guide if you wish your Pull Requests to be reviewed by us. This guide was created with to ensure your contributions have a meaningful long-term impact on the IATI code base by ensuring your code can be maintained over the long-term. It is also beneficial to open a Github Issue about any significant features you may wish to add as we reserve the right to reject pull requests that clash with, or otherwise hinder, existing or ongoing work.
 
-This style guide is inspired by the `React contribution guides`(<https://facebook.github.io/react-native/docs/contributing.html#how-to-contribute>__).
+This style guide is inspired by the `React contribution guides<https://facebook.github.io/react-native/docs/contributing.html#how-to-contribute>`_.
 
 Code Conventions
 -------------------------
