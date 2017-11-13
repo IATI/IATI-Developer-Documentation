@@ -69,13 +69,13 @@ Relevant sources:
 ------------------------
 
 -  What is good code?
-       `*https://robots.thoughtbot.com/what-is-good-code* <https://robots.thoughtbot.com/what-is-good-code>`__
+       `https://robots.thoughtbot.com/what-is-good-code <https://robots.thoughtbot.com/what-is-good-code>`__
 
 -  Writing good unit tests:
-       `*http://defragdev.com/blog/?p=783* <http://defragdev.com/blog/?p=783>`__
+       `http://defragdev.com/blog/?p=783 <http://defragdev.com/blog/?p=783>`__
 
 -  Test Driven Development:
-       `*https://www.madetech.com/blog/9-benefits-of-test-driven-development* <https://www.madetech.com/blog/9-benefits-of-test-driven-development>`__
+       `https://www.madetech.com/blog/9-benefits-of-test-driven-development <https://www.madetech.com/blog/9-benefits-of-test-driven-development>`__
 
 -  Refactoring unruly code:
-       `*https://sourcemaking.com/refactoring/refactorings* <https://sourcemaking.com/refactoring/refactorings>`__
+       `https://sourcemaking.com/refactoring/refactorings <https://sourcemaking.com/refactoring/refactorings>`__
