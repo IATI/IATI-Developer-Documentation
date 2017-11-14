@@ -13,7 +13,7 @@ Code Conventions
 It is important to remember that IATI is still a relatively young project and so our current code base has varying standards of code quality and style. We are continuously working towards improving this situation. With this in mind, we ask that you use our `pyIATI <https://github.com/IATI/pyIATI>`__ work as the expected standard to work towards.
 
 `pyIATI is part of our current work to improve the stability and maintainability of our
-infrastructure <https://discuss.iatistandard.org/t/introducing-the-iati-python-library/720>`__. We believe it exemplifies our move towards stronger architecture and adoption of industry-standard best practices. Because of this we wish to be consistent with the coding style used with throughout this project whenever possible.
+infrastructure <https://discuss.iatistandard.org/t/introducing-the-iati-python-library/720>`__. We believe it exemplifies our move towards stronger architecture and adoption of industry-standard best practices. Because of this, we wish to be consistent with the coding style used with throughout this project whenever possible.
 
 For guiding principles we use: `PEP8 <https://www.python.org/dev/peps/pep-0008/>`__ and the `Google Python Style
 Guide <https://google.github.io/styleguide/pyguide.html>`__.
