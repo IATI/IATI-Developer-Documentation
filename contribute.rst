@@ -32,7 +32,7 @@ Generally speaking we expect all contributions to adhere to the following conven
 
 -  Documented code:
 
-   -  We expect a clear docstring per module, class, and function, explaining what it does at a minimum. This is to reduce developer onboarding time and the barriers to entry for new developers who want to get involved. They should be formatted as per `Google-style Sphinx Docstrings <http://www.sphinx-doc.org/en/stable/ext/example_google.html>`__.
+   -  We expect a clear docstring per module, class, and function, explaining what it does at a minimum. This is to reduce both developer onboarding time and the barriers to entry for new developers who want to get involved. They should be formatted as per `Google-style Sphinx Docstrings <http://www.sphinx-doc.org/en/stable/ext/example_google.html>`__.
 
 -  No code smells:
 
