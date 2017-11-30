@@ -5,7 +5,7 @@ IATI is a living project with a number of tools that are owned by the IATI Secre
 
 Please follow this guide if you wish your pull requests to be reviewed by us. This guide was created to ensure your contributions have a meaningful long-term impact on the IATI code base by ensuring your code can be maintained over the long-term. It is also beneficial to open a Github Issue about any significant features you may wish to add as we reserve the right to reject pull requests that clash with, or otherwise hinder, existing or ongoing work.
 
-This style guide is inspired by the `React contribution guides <https://facebook.github.io/react-native/docs/contributing.html#how-to-contribute>`__.
+This guide is inspired by the `React contribution guides <https://facebook.github.io/react-native/docs/contributing.html#how-to-contribute>`__.
 
 Code Conventions
 -------------------------
@@ -28,7 +28,7 @@ Generally speaking we expect all contributions to adhere to the following conven
 
 -  Robustly tested code:
 
-   -  All core functionality is unit tested with `py.test <https://docs.pytest.org/en/latest/>`__ and edge cases considered. We strongly suggest you use Test Driven Development. We also require details and evidence of any manual testing to show no existing functionality is unexpectedly broken.
+   -  All core functionality is to be unit tested with `py.test <https://docs.pytest.org/en/latest/>`__ and edge cases considered. We strongly suggest you use Test Driven Development. We also require details and evidence of any manual testing to show no existing functionality is unexpectedly broken.
 
 -  Documented code:
 
@@ -38,7 +38,7 @@ Generally speaking we expect all contributions to adhere to the following conven
 
    -  Don’t Repeat Yourself, keep your code DRY.
 
-   -  Avoid excessive use of conditional statements, your functions should be doing the minimum possible for maximum effect. Think about `polymorphism <https://www.digitalocean.com/community/tutorials/how-to-apply-polymorphism-to-classes-in-python-3>`__ and the `Single Responsibility Principle (SRP) <https://robots.thoughtbot.com/back-to-basics-solid#single-responsibility-principle>`__.
+   -  Avoid excessive use of conditional statements your functions should be doing the minimum possible for maximum effect. Think about `polymorphism <https://www.digitalocean.com/community/tutorials/how-to-apply-polymorphism-to-classes-in-python-3>`__ and the `Single Responsibility Principle (SRP) <https://robots.thoughtbot.com/back-to-basics-solid#single-responsibility-principle>`__.
 
    -  Consider `other kinds of code smell <https://sourcemaking.com/refactoring/smells>`__.
 
