@@ -10,7 +10,7 @@ See also, the original :doc:`proposal <ssot/proposal>`.
 .. toctree::
    :hidden:
 
-   ssot/proposal
+   ssot/proposal.rst
 
 Repositories
 ------------
