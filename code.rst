@@ -81,7 +81,7 @@ We use the following external services to test our code in various ways:
 
 * `Travis <https://travis-ci.org/>`__ - runs unit tests every time a commit is made
 * `Coveralls <https://coveralls.io/>`__ - checks the coverage of those unit tests
-* `Requires.io <https://requires.io>`__ (Python specific) - tests to see whether the Python moudles listed in requirements.txt are up to date (see :ref:`python_dependency_pinning` for more)
+* `Requires.io <https://requires.io>`__ (Python specific) - tests to see whether the Python moudles listed in requirements.txt are up to date
 * `Landscape <https://landscape.io/>`__ (Python specific) - calculates the quality of the code using static analysis, and tracks this over time
 
 A public link to the results of each of these service can be found at the top of the README of each covered project.
