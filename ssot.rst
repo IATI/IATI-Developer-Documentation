@@ -23,7 +23,7 @@ Repositories
 
 In addition there are codelists in another repository `IATI-Codelists-NonEmbedded <https://github.com/IATI/IATI-Codelists-NonEmbedded>`__ which are not Embedded, that is any changes to them do not need to go through the Update process. Since it is versioned seperately, this is not a submodule of the IATI-Standard-SSOT repository.
 
-The documentation on http://iatistandard.org/ is then built then built from the contents of these repositories, and also two repositories containing documentation that is not specific to a particular version of the standard: `IATI-Guidance <https://github.com/IATI/IATI-Guidance>`__ and `IATI-Developer-Documentation <https://github.com/IATI/IATI-Developer-Documentation>`__.
+The documentation on http://iatistandard.org/ is then built from the contents of these repositories, and also two repositories containing documentation that is not specific to a particular version of the standard: `IATI-Guidance <https://github.com/IATI/IATI-Guidance>`__ and `IATI-Developer-Documentation <https://github.com/IATI/IATI-Developer-Documentation>`__.
 
 Finding a specific version of the SSOT
 --------------------------------------
