@@ -31,7 +31,7 @@ Finding a specific version of the SSOT
 This can be done via:
 
 * branches, which may change for typos and bugfixes e.g. ``version-1.04``, see :ref:`ssot-branches`
-* tags, which point to the exact commit on the day of release e.g. ``v1.04``, see :ref:`ssot-tags`
+.. * tags, which point to the exact commit on the day of release e.g. ``v1.04``, see :ref:`ssot-tags`
 
 Versions prior to 1.04
 ----------------------
