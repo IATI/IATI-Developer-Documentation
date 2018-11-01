@@ -297,20 +297,17 @@ There are also feature branches that are specific to individual
 repositories. These are for any changes that need reviewing/testing
 before they are merged into one of the main branches.
 
-.. _ssot-tags:
-
-Tags
-----
-
-Tags starting with a v refer to a released version of the IATI Standard
-(e.g. v1.03 or v1.03.1). This tagging scheme is already `used for the
-schemas <https://github.com/IATI/IATI-Schemas/releases>`__. Tags should
-be consistent across all of the repositories, and the submodules should
-point at commits with the same tag. We would need to manage this as part
-of our internal workflow/policy.
-
-There is currently no other planned uses for tags, although we could
-easily do so (e.g. to tag a snapshot on a particular date).
+.. .. _ssot-tags:
+   Tags
+   ----
+   Tags starting with a v refer to a released version of the IATI Standard
+   (e.g. v1.03 or v1.03.1). This tagging scheme is already `used for the
+   schemas <https://github.com/IATI/IATI-Schemas/releases>`__. Tags should
+   be consistent across all of the repositories, and the submodules should
+   point at commits with the same tag. We would need to manage this as part
+   of our internal workflow/policy.
+   There is currently no other planned uses for tags, although we could
+   easily do so (e.g. to tag a snapshot on a particular date).
 
 GitHub Issues
 -------------
