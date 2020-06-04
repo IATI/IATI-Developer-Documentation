@@ -1,8 +1,7 @@
 Security considerations
 =======================
 
-When building tools for IATI data there are several security issues to be aware
-of.
+When building tools for IATI data there are several security issues to be aware of.
 
 XML
 ---
@@ -25,5 +24,3 @@ should check
 
 * The URLs don't begin file:// as this will expose data on the local filesystem
 * The URLs don't point at any sensitive local HTTP(S) services
-
-
