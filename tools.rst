@@ -17,12 +17,13 @@ IATI is an open data standard and all internal IATI software tools are open sour
 - `IATI-Registry-Refresher <https://github.com/IATI/IATI-Registry-Refresher>`__: scripts to pull IATI data from the IATI registry using the CKAN API.
 - `IATI-Publishing-Statistics <https://github.com/IATI/IATI-Publishing-Statistics>`__: tables and files presenting summaries of all published IATI data.
 - `IATI-Website-Tests <https://github.com/IATI/IATI-Website-Tests>`__: sanity checks, smoke and integration tests for IATI tools.
-- `Ckanext-iati <https://github.com/IATI/ckanext-iati>`__: CKAN extension for the IATI Registry.
+- `ckanext-iati <https://github.com/IATI/ckanext-iati>`__: CKAN extension for the IATI Registry.
 - `IATI-Validator <https://github.com/IATI/IATI-data-validator>`__: validation and data quality checks for IATI files following Schemas, rulesets and codelists. Note the structure of the validator related repositories may change.
 - `IATI-Datastore-Redirects <https://github.com/IATI/IATI-Datastore-Redirects>`__: process for redirecting old datastore API query results to new datastore API
 
-These repositories are managed and maintained by the `IATI Technical Team <https://iatistandard.org/en/about/governance/who-runs-iati/technical-team/>`__. If you wish to contribute to them, please follow the :doc:`Developer contributions <contribute>` guidelines and, for further questions, email code@iatistandard.org
+These repositories are managed and maintained by the `IATI Technical Team <https://iatistandard.org/en/about/governance/who-runs-iati/technical-team/>`__. If you wish to contribute to them, please follow the :doc:`Developer contributions <contribute>` guidelines and, for further questions, email code@iatistandard.org.
 
 There are additional IATI tools managed by external vendors or are not part of IATI list of repositories.
+
 - `IATI Datastore <https://github.com/zimmerman-zimmerman/iati.cloud>`__: extracts all published IATI XML files from the IATI Registry and makes them available via an API.
 - `d-portal <https://github.com/devinit/D-Portal>`__: visualisation platform for IATI data.

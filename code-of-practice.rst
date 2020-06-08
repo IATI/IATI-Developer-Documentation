@@ -25,6 +25,7 @@ Our Gitflow
 5. The dev branch is deployed and tested in a development environment or server.
 6. Once the feature branches have been merged, deployed and tested in the development environment, a pull request can be made from the dev branch to the master branch.
 7. The master branch is then deployed to the live environment.
+
   - Only the master branch should be deployed to live environments.
   - Urgent hotfixes can have pull requests done to the master branch and this should be undertaken only by the IATI Technical Team.
-  - Content and general use reviews should be done in a staging environment, built using the development branch. 
+  - Content and general use reviews should be done in a staging environment, built using the development branch.
