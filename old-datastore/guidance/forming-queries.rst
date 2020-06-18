@@ -1,7 +1,7 @@
 Forming Queries
 ===============
 
-You can query the Datastore by building queries from filters. The identified data can then be output in an `XML </http://iatistandard.org/guidance/datastore/guidance/data-formats/#xml>`__, `JSON <http://iatistandard.org/guidance/datastore/guidance/data-formats/#json>`__ or `CSV <http://iatistandard.org/guidance/datastore/guidance/data-formats/#csv>`__ format depending on your needs.
+You can query the Datastore by building queries from filters. The identified data can then be output in an `XML <http://iatistandard.org/guidance/datastore/guidance/data-formats/#xml>`__, `JSON <http://iatistandard.org/guidance/datastore/guidance/data-formats/#json>`__ or `CSV <http://iatistandard.org/guidance/datastore/guidance/data-formats/#csv>`__ format depending on your needs.
 
 Basic Query
 -----------
