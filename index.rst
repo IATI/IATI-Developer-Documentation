@@ -1,25 +1,29 @@
 IATI Developer Documentation
 ============================
 
-This section contains various pieces documentation targetted at developers interested in using and/or publishing IATI data.
+This guidance is intended for developers who want to contribute to improving or creating technical solutions for publishing and using IATI data.
 
-Note that we are in the process of consolidating all developer documentation into this website. Currently, some documentation is still located elsewhere, such as on the `IATI wiki <http://wiki.iatistandard.org/>`_.
+There are several ways in which developers can get involved in IATI, including:
+
+- accessing APIs to access complex IATI data
+- contributing to the code of existing IATI products
+- contributing to improving existing IATI technical guidance and support
+- building new IATI tools that enable people to publish or access and use IATI data
+- providing technical solutions to automate and integrate an organisation’s internal data systems with the process of publishing data according to the IATI Standard.
 
 
 Contents:
 
 .. toctree::
    :titlesonly:
-   
-   communication
+
+   tools
    community-about
-   ssot
-   code
-   data-quality
-   access
+   contribute
+   code-of-practice
+   design-principles
+   guidance
+   codelist-api
+   code-python
    security
    xquery
-   tools
-   tools-generic
-   contribute
-
