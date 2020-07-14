@@ -164,5 +164,5 @@ If you do this you may not need to alter the way you deal with codelists, but th
 * Version information is no longer provided in the XML.
 * Specific changes to codelists:
 
-  * The `BudgetIdentifier <https://github.com/orgs/IATI/teams>`__codelist has different categories, and no 'sector' elements.
+  * The `BudgetIdentifier <https://iatistandard.org/en/iati-standard/105/codelists/budgetidentifier/>`__ codelist has different categories, and no 'sector' elements.
   * Names in the `FileFormat <https://iatistandard.org/en/iati-standard/203/codelists/fileformat/>`__ codelist are no longer there as they make little sense, and the list now tracks the IANA source it is derived from directly.
