@@ -110,14 +110,14 @@ Working with GitHub Directly
 The codelist source is now on GitHub:
 
 Core (Previously Embedded) Codelists
-------------------
+------------------------------------
 As of version 1.04, each version of the standard has it's own branch in this repository. Branches are named version-<version-number> e.g. version-1.05.
 So, for example, the version 1.05 codelists can be found at:
 
 - https://github.com/IATI/IATI-Codelists/tree/version-1.05/xml
 
 Non-Core and Replicated (Previously Non-Embedded) Codelists
-----------------------
+-----------------------------------------------------------
 These values on these lists can change independently of IATI versions. The latest versions are always on the 'master' branch.
 
 - https://github.com/IATI/IATI-Codelists-NonEmbedded/tree/master/xml
@@ -164,5 +164,5 @@ If you do this you may not need to alter the way you deal with codelists, but th
 * Version information is no longer provided in the XML.
 * Specific changes to codelists:
 
-  * :doc:`/codelists/BudgetIdentifier/` has different categories, and no 'sector' elements.
-  * Names in the :doc:`/codelists/FileFormat/` list are no longer there as they make little sense, and the list now tracks the IANA source it is derived from directly.
+  * The `BudgetIdentifier <https://github.com/orgs/IATI/teams>`__codelist has different categories, and no 'sector' elements.
+  * Names in the the `FileFormat <https://iatistandard.org/en/iati-standard/203/codelists/fileformat/>`__ codelist are no longer there as they make little sense, and the list now tracks the IANA source it is derived from directly.
