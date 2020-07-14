@@ -49,7 +49,7 @@ Example: Query for activities that are classified using the `DAC Sector Code <ht
 * JSON: `http://datastore.iatistandard.org/api/1/access/activity.json?sector=11130&iati-identifier=GB-GOV-1 <http://datastore.iatistandard.org/api/1/access/activity.json?sector=11130&iati-identifier=GB-GOV-1>`__
 * CSV: `http://datastore.iatistandard.org/api/1/access/activity.csv?sector=11130&iati-identifier=GB-GOV-1 <http://datastore.iatistandard.org/api/1/access/activity.csv?sector=11130&iati-identifier=GB-GOV-1>`__
 
-The `iati-identifier` filter returns activities with your specified IATI `Organisation Identifier <http://iatistandard.org/organisation-identifiers//>`__ – in this case, DFID (GB-GOV-1).
+The `iati-identifier` filter returns activities with your specified IATI `Organisation Identifier <https://iatistandard.org/en/guidance/publishing-data/registering-and-managing-your-organisation-account/how-to-create-your-iati-organisation-identifier/>`__ – in this case, DFID (GB-GOV-1).
 
 Pagination
 ----------

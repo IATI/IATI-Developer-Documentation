@@ -45,7 +45,7 @@ Example API call:
 reporting-org
 `````````````
 
-Returns activities where the `reporting-org <http://iatistandard.org/activity-standard/iati-activities/iati-activity/reporting-org/>`__ element has a @ref attribute value that matches your specified `Organisation identifier <https://iatistandard.org/en/iati-standard/203/activity-standard/iati-activities/iati-activity/reporting-org/>`__ string.
+Returns activities where the `reporting-org <http://iatistandard.org/activity-standard/iati-activities/iati-activity/reporting-org/>`__ element has a @ref attribute value that matches your specified `Organisation identifier <https://iatistandard.org/en/guidance/publishing-data/registering-and-managing-your-organisation-account/how-to-create-your-iati-organisation-identifier/>`__ string.
 
 Parameters:
     reporting-org: Organisation identifier string.
@@ -144,7 +144,7 @@ transaction_provider-org
 Returns activities containing at least one `transaction element <http://iatistandard.org/activity-standard/iati-activities/iati-activity/transaction/>`__ where the provider-org element has a @ref attribute value that matches your specified organisation identifier string.
 
 Parameters:
-    transaction_provider-org: `Organisation identifier string <https://iatistandard.org/en/iati-standard/203/activity-standard/iati-activities/iati-activity/transaction/provider-org/>`__ for the organisation issuing who provided transaction funds
+    transaction_provider-org: `Organisation identifier string <https://iatistandard.org/en/guidance/publishing-data/registering-and-managing-your-organisation-account/how-to-create-your-iati-organisation-identifier/>`__ for the organisation issuing who provided transaction funds
 
 Example API call:
     `transaction_provider-org=GB-1 <http://datastore.iatistandard.org/api/1/access/activity.xml?transaction_provider-org=GB-1>`__
@@ -165,10 +165,10 @@ Example API call:
 transaction_receiver-org
 ````````````````````````
 
-Returns activities containing at least one `transaction element <http://iatistandard.org/activity-standard/iati-activities/iati-activity/transaction/>`__ where funds have been transferred to an organisation with your specified `Organisation identifier <http://iatistandard.org/organisation-identifiers/>`__ string.
+Returns activities containing at least one `transaction element <http://iatistandard.org/activity-standard/iati-activities/iati-activity/transaction/>`__ where funds have been transferred to an organisation with your specified `Organisation identifier <https://iatistandard.org/en/guidance/publishing-data/registering-and-managing-your-organisation-account/how-to-create-your-iati-organisation-identifier/>`__ string.
 
 Parameters:
-    transaction_receiver-org: `Organisation identifier string <https://iatistandard.org/en/iati-standard/203/activity-standard/iati-activities/iati-activity/transaction/receiver-org/>`__ for the organisation issuing who received transaction funds
+    transaction_receiver-org: `Organisation identifier string <https://iatistandard.org/en/guidance/publishing-data/registering-and-managing-your-organisation-account/how-to-create-your-iati-organisation-identifier/>`__ for the organisation issuing who received transaction funds
 
 Example API call:
     `transaction_receiver-org=GB-CHC-1108464 <http://datastore.iatistandard.org/api/1/access/activity.xml?transaction_receiver-org=GB-CHC-1108464>`__
