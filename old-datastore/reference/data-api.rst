@@ -9,7 +9,7 @@ Available filters
 iati-identifier
 ```````````````
 
-Returns activities matching your specified `IATI Identifier <http://iatistandard.org/activity-standard/iati-identifier/>`__ value.  In practice, no more than one activity should be returned as each activity should contain a unique `IATI Identifier <http://iatistandard.org/activity-standard/iati-identifier/>`__ value.
+Returns activities matching your specified `IATI Identifier <https://iatistandard.org/en/iati-standard/203/activity-standard/iati-activities/iati-activity/iati-identifier/>`__ value.  In practice, no more than one activity should be returned as each activity should contain a unique `IATI Identifier <https://iatistandard.org/en/iati-standard/203/activity-standard/iati-activities/iati-activity/iati-identifier/>`__ value.
 
 Parameters:
   iati-identifier: String denoting an individual IATI activity ID
@@ -45,7 +45,7 @@ Example API call:
 reporting-org
 `````````````
 
-Returns activities where the `reporting-org <http://iatistandard.org/activity-standard/iati-activities/iati-activity/reporting-org/>`__ element has a @ref attribute value that matches your specified `Organisation identifier <http://iatistandard.org/organisation-identifiers/>`__ string.
+Returns activities where the `reporting-org <http://iatistandard.org/activity-standard/iati-activities/iati-activity/reporting-org/>`__ element has a @ref attribute value that matches your specified `Organisation identifier <https://iatistandard.org/en/iati-standard/203/activity-standard/iati-activities/iati-activity/reporting-org/>`__ string.
 
 Parameters:
     reporting-org: Organisation identifier string.
@@ -60,7 +60,7 @@ reporting-org.type
 Returns activities where the `reporting-org <http://iatistandard.org/activity-standard/iati-activities/iati-activity/reporting-org/>`__ element has a @type attribute value that matches your specified value.
 
 Parameters:
-    recipient-org.type: 2-digit value that appears on the `organisation type codelist<http://iatistandard.org/codelists/OrganisationType/>`__
+    recipient-org.type: 2-digit value that appears on the `organisation type codelist <http://iatistandard.org/codelists/OrganisationType/>`__
 
 Example API call:
     `reporting-org.type=10 <http://datastore.iatistandard.org/api/1/access/activity.xml?reporting-org.type=10>`__
@@ -84,7 +84,7 @@ policy-marker
 Returns activities where a `policy-marker <http://iatistandard.org/activity-standard/iati-activities/iati-activity/policy-marker/>`__ element has a @code attribute value that matches your specified policy-marker value.
 
 Parameters:
-    policy-marker: 1-digit value that appears on the `policy marker codelist<http://iatistandard.org/codelists/PolicyMarker/>`__
+    policy-marker: 1-digit value that appears on the `policy marker codelist <http://iatistandard.org/codelists/PolicyMarker/>`__
 
 Example API call:
     `policy-marker=1 <http://datastore.iatistandard.org/api/1/access/activity.xml?policy-marker=1>`__
@@ -93,7 +93,7 @@ Example API call:
 participating-org
 ``````````````````
 
-Returns activities where the `participating-org <http://iatistandard.org/activity-standard/iati-activities/iati-activity/reporting-org/>`__ element has a @ref attribute value that matches your specified participating-org identification string.
+Returns activities where the `participating-org <https://iatistandard.org/en/iati-standard/203/activity-standard/iati-activities/iati-activity/participating-org/>`__ element has a @ref attribute value that matches your specified participating-org identification string.
 
 Parameters:
     participating-org: Identification string for the organisation who is participating
@@ -144,7 +144,7 @@ transaction_provider-org
 Returns activities containing at least one `transaction element <http://iatistandard.org/activity-standard/iati-activities/iati-activity/transaction/>`__ where the provider-org element has a @ref attribute value that matches your specified organisation identifier string.
 
 Parameters:
-    transaction_provider-org: `Organisation identifier string <http://iatistandard.org/organisation-identifiers/>`__ for the organisation issuing who provided transaction funds
+    transaction_provider-org: `Organisation identifier string <https://iatistandard.org/en/iati-standard/203/activity-standard/iati-activities/iati-activity/transaction/provider-org/>`__ for the organisation issuing who provided transaction funds
 
 Example API call:
     `transaction_provider-org=GB-1 <http://datastore.iatistandard.org/api/1/access/activity.xml?transaction_provider-org=GB-1>`__
@@ -168,7 +168,7 @@ transaction_receiver-org
 Returns activities containing at least one `transaction element <http://iatistandard.org/activity-standard/iati-activities/iati-activity/transaction/>`__ where funds have been transferred to an organisation with your specified `Organisation identifier <http://iatistandard.org/organisation-identifiers/>`__ string.
 
 Parameters:
-    transaction_receiver-org: `Organisation identifier string <http://iatistandard.org/organisation-identifiers/>`__ for the organisation issuing who received transaction funds
+    transaction_receiver-org: `Organisation identifier string <https://iatistandard.org/en/iati-standard/203/activity-standard/iati-activities/iati-activity/transaction/receiver-org/>`__ for the organisation issuing who received transaction funds
 
 Example API call:
     `transaction_receiver-org=GB-CHC-1108464 <http://datastore.iatistandard.org/api/1/access/activity.xml?transaction_receiver-org=GB-CHC-1108464>`__
