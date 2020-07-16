@@ -3,7 +3,5 @@ Guidance
 
 The finer points of how to use the Datastore.
 
-.. toctree::
-
-    guidance/forming-queries
-    guidance/data-formats
+* `Forming Queries <guidance/forming-queries.rst>`__
+* `Data Formats <guidance/data-formats.rst>`__
