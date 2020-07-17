@@ -1,13 +1,10 @@
 Datastore (Alpha)
 =================
 
-The Datastore stores all activity data available on the IATI Registry, allowing you to query it all in one place. This data can be accessed in spreadsheet format, or in more technical formats through a standard interface (API). Please be aware that this product is considered to be in alpha (`see below <http://iatistandard.org/guidance/datastore/#alpha-status>`__).
+The Datastore stores all activity data available on the IATI Registry, allowing you to query it all in one place. This data can be accessed in spreadsheet format, or in more technical formats through a standard interface (API). Please be aware that this product is considered to be in alpha (`see below <#alpha-status>`__).
 
-.. toctree::
-    :titlesonly:
-
-    datastore/guidance
-    datastore/reference
+* `Guidance <guidance.rst>`__
+* `Reference <reference.rst>`__
 
 IATI Datastore CSV Query Builder
 --------------------------------
@@ -19,9 +16,9 @@ Overview
 
 The Datastore has three APIs:
 
-* `Data API <http://iatistandard.org/guidance/datastore/reference/data-api/>`__: Allows you to make queries which can output IATI data in your chosen format (CSV, XML or JSON).
-* `Metadata API <http://iatistandard.org/guidance/datastore/reference/metadata-api/>`__: Allows you to find information about datasets that are contained within the Datastore.
-* `Error API <http://iatistandard.org/guidance/datastore/reference/error-api/>`__: Allows you to see information about datasets that could not be successfully imported into the Datastore.
+* `Data API <reference/data-api.rst>`__: Allows you to make queries which can output IATI data in your chosen format (CSV, XML or JSON).
+* `Metadata API <reference/metadata-api.rst>`__: Allows you to find information about datasets that are contained within the Datastore.
+* `Error API <reference/error-api.rst>`__: Allows you to see information about datasets that could not be successfully imported into the Datastore.
 
 Anyone can access the Datastore – just build a query and data will be returned.
 
@@ -61,5 +58,5 @@ Next Steps
 
 The Datastore can do much more than is shown here.
 
-* See the `Guidance <http://iatistandard.org/guidance/datastore/guidance/>`__ for a more detailed guide on querying the Datastore.
-* For in-depth documentation, see the `Reference <http://iatistandard.org/guidance/datastore/reference/>`__.
+* See the `Guidance <guidance.rst>`__ for a more detailed guide on querying the Datastore.
+* For in-depth documentation, see the `Reference <reference.rst>`__.

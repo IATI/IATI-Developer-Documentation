@@ -1,7 +1,7 @@
 Forming Queries
 ===============
 
-You can query the Datastore by building queries from filters. The identified data can then be output in an `XML <http://iatistandard.org/guidance/datastore/guidance/data-formats/#xml>`__, `JSON <http://iatistandard.org/guidance/datastore/guidance/data-formats/#json>`__ or `CSV <http://iatistandard.org/guidance/datastore/guidance/data-formats/#csv>`__ format depending on your needs.
+You can query the Datastore by building queries from filters. The identified data can then be output in an `XML <data-formats.rst#xml>`__, `JSON <data-formats.rst#json>`__ or `CSV <data-formats.rst#csv>`__ format depending on your needs.
 
 Basic Query
 -----------
@@ -49,7 +49,7 @@ Example: Query for activities that are classified using the `DAC Sector Code <ht
 * JSON: `http://datastore.iatistandard.org/api/1/access/activity.json?sector=11130&iati-identifier=GB-GOV-1 <http://datastore.iatistandard.org/api/1/access/activity.json?sector=11130&iati-identifier=GB-GOV-1>`__
 * CSV: `http://datastore.iatistandard.org/api/1/access/activity.csv?sector=11130&iati-identifier=GB-GOV-1 <http://datastore.iatistandard.org/api/1/access/activity.csv?sector=11130&iati-identifier=GB-GOV-1>`__
 
-The `iati-identifier` filter returns activities with your specified IATI `Organisation Identifier <http://iatistandard.org/organisation-identifiers//>`__ – in this case, DFID (GB-GOV-1).
+The `iati-identifier` filter returns activities with your specified IATI `Organisation Identifier <https://iatistandard.org/en/guidance/publishing-data/registering-and-managing-your-organisation-account/how-to-create-your-iati-organisation-identifier/>`__ – in this case, DFID (GB-GOV-1).
 
 Pagination
 ----------
@@ -71,4 +71,4 @@ You can return all activities, no matter how many there are, by adding `&stream=
 More Information
 ----------------
 
-For in-depth detail of all the available filters, see the `Reference <http://iatistandard.org/guidance/datastore/reference/data-api/>`__.
+For in-depth detail of all the available filters, see the `Reference <../reference/data-api.rst>`__.
