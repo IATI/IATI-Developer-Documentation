@@ -1,5 +1,9 @@
-Datastore (Alpha)
+Old Datastore (Deprecated)
 =================
+
+Between now and 22 March 2021 users can choose to either use existing API calls to return data from the old Datastore, or use a Redirect version from the Old Datastore to the new Datastore. By using this version, existing API calls will be redirected and return data from the new Datastore. After 22 March 2021, the old Datastore will be deprecated and all queries to the Old Datastore will automatically be redirected to corresponding queries on the new Datastore.
+
+The Redirect Version of the Old Datastore is hosted at `http://datastoreredirect.iatistandard.org <http://datastoreredirect.iatistandard.org>`_. Redirects may be tested by replacing "datastore.iatistandard.org" in previous queries with "datastoreredirect.iatistandard.org." For example `http://datastore.iatistandard.org/api/1/access/activity.csv <http://datastore.iatistandard.org/api/1/access/activity.csv>`_ would become `http://datastoreredirect.iatistandard.org/api/1/access/activity.csv <http://datastoreredirect.iatistandard.org/api/1/access/activity.csv>`_.
 
 The Datastore stores all activity data available on the IATI Registry, allowing you to query it all in one place. This data can be accessed in spreadsheet format, or in more technical formats through a standard interface (API). Please be aware that this product is considered to be in alpha (`see below <#alpha-status>`__).
 
