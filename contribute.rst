@@ -8,7 +8,7 @@ Raising issues
 
 For bugs, feature requests, or other general enquiries about the IATI code base, we ask that appropriate issues are raised in the corresponding repository. Please follow templates provided to raise different types of issues, to help both the IATI Technical Team and other users to understand the context.
 
-To make it clear what is currently a problem and being actively addressed on we only keep active issues open and will ask contributers to close issues that have been resolved or are not currently reproducible in the codebase.
+To make it clear what is currently a problem and being actively addressed, we only keep active issues open and will ask contributers to close issues that have been resolved or are not currently reproducible in the codebase.
 
 Making pull requests
 --------------------
