@@ -13,7 +13,8 @@ The IATI technical team follows a code of practice when developing and maintaini
 - When possible, code should log details about its usage.
 - Developers should be able to find help and useful resources easily.
 - We should protect our users’ privacy and ensure our code is secure.
-- Projects should have continuous integration and testing with Travis, and make use of Requires.io to ensure that dependencies are updated when possible.
+- Projects should have continuous integration and testing with Travis or other appropriate tools
+- Projects should make use of Requires.io or other appropriate tools to ensure that dependencies are updated when possible.
 
 Our Gitflow
 -----------
@@ -24,8 +25,8 @@ Our Gitflow
 4. Code reviews for pull requests are made in local environments.
 5. The dev branch is deployed and tested in a development environment or server.
 6. Once the feature branches have been merged, deployed and tested in the development environment, a pull request can be made from the dev branch to the master branch.
-7. The master branch is then deployed to the live environment.
+7. The main/master branch is then deployed to the live environment.
 
-  - Only the master branch should be deployed to live environments.
-  - Urgent hotfixes can have pull requests done to the master branch and this should be undertaken only by the IATI Technical Team.
+  - Only the main/master branch should be deployed to live environments.
+  - Urgent hotfixes can have pull requests done to the main/master branch and this should be undertaken only by the IATI Technical Team.
   - Content and general use reviews should be done in a staging environment, built using the development branch.
