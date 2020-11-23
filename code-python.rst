@@ -4,7 +4,7 @@ Notes about IATI Python Code
 Python2 vs Python3
 ------------------
 
-Currently all IATI code is Python 2, and in general isn't Python 3. However, we have started some Python 3 features (e.g. the Python 3 print statement) in new code to make a future transition easier.
+All current IATI code is Python 3 or Node JS. However, some tools that have been flagged for review as a part of the Technical Stock Take remain in Python 2 (either on Github, or as deployed) while decisions on future tool-sets are pending.
 
 Common Dependencies
 -------------------
