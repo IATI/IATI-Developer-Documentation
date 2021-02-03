@@ -7,7 +7,7 @@ The following content is considered normative:
 
 - `IATI SSOT <https://github.com/IATI/IATI-Standard-SSOT>`__
 
-  - `IATI-Codelists <https://github.com/IATI/IATI-Codelists/tree/7dc8ae401dfdf6970130eeabc08974b11ff9140b>`__
+  - `IATI-Codelists <https://github.com/IATI/IATI-Codelists>`__
   
   - `IATI-Rulesets <https://github.com/IATI/IATI-Rulesets/tree/d49b82b821e7ed23d62da1a6767d9dd7cdd310b6>`__
   
