@@ -26,4 +26,4 @@ The following content is considered normative:
 - `IATI-Upgrades <https://github.com/IATI/IATI-Upgrades>`__
 
 
-In addition to the non-normative content listed above that is related to the standard and managed on Github, IATI also provides `how to publish guidance <https://iatistandard.org/en/guidance/>`__ (managed on Wagtail) which also falls under this category.
+In addition to the non-normative content listed above that is related to the standard and managed on Github, IATI also provides `how to publish guidance <https://iatistandard.org/en/guidance>`__ (managed on Wagtail) which also falls under this category.
