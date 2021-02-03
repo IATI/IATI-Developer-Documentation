@@ -9,7 +9,7 @@ The following content is considered normative:
 
   - `IATI-Codelists <https://github.com/IATI/IATI-Codelists>`__
   
-  - `IATI-Rulesets <https://github.com/IATI/IATI-Rulesets/tree/d49b82b821e7ed23d62da1a6767d9dd7cdd310b6>`__
+  - `IATI-Rulesets <https://github.com/IATI/IATI-Rulesets>`__
   
   - `IATI-Schemas <https://github.com/IATI/IATI-Schemas/tree/9119bb5fa7d042d81f6cbac9a20970350b723272>`__
   
