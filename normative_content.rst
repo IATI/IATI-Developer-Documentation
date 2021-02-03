@@ -11,7 +11,7 @@ The following content is considered normative:
   
   - `IATI-Rulesets <https://github.com/IATI/IATI-Rulesets>`__
   
-  - `IATI-Schemas <https://github.com/IATI/IATI-Schemas/tree/9119bb5fa7d042d81f6cbac9a20970350b723272>`__
+  - `IATI-Schemas <https://github.com/IATI/IATI-Schemas>`__
   
   - `IATI-Codelists-NonEmbedded <https://github.com/IATI/IATI-Codelists-NonEmbedded>`__
 
