@@ -27,3 +27,4 @@ Contents:
    code-python
    security
    xquery
+   normative-content
