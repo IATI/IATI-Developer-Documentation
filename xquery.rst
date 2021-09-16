@@ -3,7 +3,7 @@
 Useful XQuery queries
 =====================
 
-XQuery is a query language for querying XML files. This page provides some useful example queries for working with IATI data. A good graphical interface for running these queries is `BaseX <http://basex.org/>`_.
+XQuery is a query language for querying XML files. This page provides some useful example queries for working with IATI data. A good graphical interface for running these queries is `BaseX <https://basex.org/>`_.
 
 Many of the queries below are also valid XPath, since XPath is a subset of XQuery.
 
