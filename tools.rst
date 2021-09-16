@@ -18,7 +18,9 @@ IATI is an open data standard and all internal IATI software tools are open sour
 - `IATI-Publishing-Statistics <https://github.com/IATI/IATI-Publishing-Statistics>`__: tables and files presenting summaries of all published IATI data.
 - `IATI-Website-Tests <https://github.com/IATI/IATI-Website-Tests>`__: sanity checks, smoke and integration tests for IATI tools.
 - `ckanext-iati <https://github.com/IATI/ckanext-iati>`__: CKAN extension for the IATI Registry.
-- `IATI-Validator <https://github.com/IATI/IATI-Validator-Actual>`__: validation and data quality checks for IATI files following Schemas, rulesets and codelists. Note the structure of the validator related repositories may change.
+- `IATI-Validator-Web <https://github.com/IATI/IATI-Validator-Web>`__: Angular single page application front end for the validator
+- `Validator API <https://github.com/IATI/js-validator-api>`__: validation and data quality checks for IATI files following Schemas, rulesets and codelists. 
+- `Validator Services <https://github.com/IATI/validator-services>`__: Back end service for the validator front end
 - `IATI-Datastore-Redirects <https://github.com/IATI/IATI-Datastore-Redirects>`__: process for redirecting old datastore API query results to new datastore API
 
 These repositories are managed and maintained by the `IATI Technical Team <https://iatistandard.org/en/about/governance/who-runs-iati/technical-team/>`__. If you wish to contribute to them, please follow the :doc:`Developer contributions <contribute>` guidelines and, for further questions, email code@iatistandard.org.
