@@ -28,3 +28,4 @@ Contents:
    security
    xquery
    normative-content
+   non-functional-requirements
