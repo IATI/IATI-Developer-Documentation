@@ -20,6 +20,7 @@ Contents:
    tools
    community-about
    contribute
+   code-of-conduct
    code-of-practice
    design-principles
    guidance
