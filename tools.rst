@@ -21,7 +21,7 @@ Application layer Unified Platform repositories:
 
 - `IATI-refresher <https://github.com/IATI/refresher>`__: Django and Wagtail website for IATI.
 
-The IATI-refresher contains the applications that control the flow of the system; identifying, downloading and refreshing docs from the Registry, and then making sure they are validated and, if appropriate, subsequently indexed into the Datastore, using services provided by the repositories below.
+The IATI-refresher contains the applications that control the flow of the system; identifying, downloading and refreshing datasets from the Registry, and then making sure they are validated and, if appropriate, subsequently indexed into the Datastore, using services provided by the repositories below.
 
 **Validation specific repositories:**
 
@@ -29,7 +29,7 @@ The IATI-refresher contains the applications that control the flow of the system
 - `IATI-Validator_Services <https://github.com/IATI/validator-services>`__: Backend microservice provider for the IATI Validator on the Unified Platform.
 - `IATI-Validator_Web <https://github.com/IATI/IATI-Validator-Web>`__: IATI Validator Angular Front-end application.
 
-**Datstore specific repositories:**
+**Datastore specific repositories:**
 
 - `IATI-Datastore_Services <https://github.com/IATI/datastore-services>`__: Connect to preview.
 - `IATI-Flattener <https://github.com/IATI/iati-flattener>`__: IATI document flattener, prepares IATI docs for Indexing into Solr for the IATI Datastore.
