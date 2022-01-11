@@ -6,7 +6,7 @@ IATI is an open data standard and all internal IATI software tools are open sour
 IATI Standard repositories:
 ---------------------------
 
-- `IATI Standard SSOT <https://github.com/IATI/IATI-Standard-SSOT>`__: main repository used to collate and build the documentation pages for the IATI Standard. This also contains the rest of the submodules.
+- `IATI-Standard-SSOT <https://github.com/IATI/IATI-Standard-SSOT>`__: main repository used to collate and build the documentation pages for the IATI Standard. This also contains the rest of the submodules.
 - `IATI-Schemas <https://github.com/IATI/IATI-Schemas>`__: constraints on the structure and contents of IATI XML.
 - `IATI-Codelists <https://github.com/IATI/IATI-Codelists>`__: core codelists to the IATI Standard.
 - `IATI-Rulesets <https://github.com/IATI/IATI-Codelists>`__: additional instructions for IATI publishers.
@@ -19,7 +19,7 @@ IATI Standard repositories:
 Application layer Unified Platform repositories:
 ------------------------------------------------
 
-- `IATI-refresher <https://github.com/IATI/refresher>`__: Django and Wagtail website for IATI.
+- `IATI-refresher <https://github.com/IATI/refresher>`__
 
 The IATI-refresher contains the applications that control the flow of the system; identifying, downloading and refreshing datasets from the Registry, and then making sure they are validated and, if appropriate, subsequently indexed into the Datastore, using services provided by the repositories below.
 
@@ -31,7 +31,7 @@ The IATI-refresher contains the applications that control the flow of the system
 
 **Datastore specific repositories:**
 
-- `IATI-Datastore_Services <https://github.com/IATI/datastore-services>`__: Connect to preview.
+- `IATI-Datastore_Services <https://github.com/IATI/datastore-services>`__: Datastore utility functions for administrators (e.g. reindex Solr).
 - `IATI-Flattener <https://github.com/IATI/iati-flattener>`__: IATI document flattener, prepares IATI docs for Indexing into Solr for the IATI Datastore.
 
 Infrastructure layer Unified Platform Repositories:
