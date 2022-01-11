@@ -38,7 +38,7 @@ Infrastructure layer Unified Platform Repositories:
 ---------------------------------------------------
 
 - `IATI-Datastore_SOLR_Configs <https://github.com/IATI/datastore-solr-configs>`__: IATI Datastore SOLR configurations, includes solr schemas and solrconfig.xml files for each collection.
-- `IATI-SOLR_Deploy <https://github.com/IATI/solr-deploy>`__: Deploys a Dockerized Solr instance with existing schema config on Azure.
+- `IATI-SOLR_K8S <https://github.com/IATI/solr-k8s>`__: Kubernetes deployment manifests and information for IATI Solr Production instance
 - `IATI-APIM_IATI_Gateway <https://github.com/IATI/apim-iati-gateway>`__: IATI API Management instance repo (aka IATI API gateway).
 
 
