@@ -29,4 +29,4 @@ In order to install multiple version of the same dependency for different projec
 Python Packages
 ---------------
 
-Currently most of our Python code is standalone scripts rather than python packages (ie. with a setup.py and installable with pip). The two current packages are IATI-Rulesets and iati-datastore, but versioning information in these is not maintained (as the preferred installation method is via GitHub).
+Currently most of our Python code is standalone scripts rather than python packages (ie. with a setup.py and installable with pip).
