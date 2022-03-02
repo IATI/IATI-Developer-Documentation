@@ -31,7 +31,8 @@ The IATI-refresher contains the applications that control the flow of the system
 
 **Datastore specific repositories:**
 
-- `IATI-Datastore_Services <https://github.com/IATI/datastore-services>`__: Datastore utility functions for administrators (e.g. reindex Solr).
+- `IATI-Datastore_Search <https://github.com/IATI/datastore-search>`__: Front End Search Application for the IATI Datastore.
+- `IATI-Datastore_Services <https://github.com/IATI/datastore-services>`__: Datastore utility functions for administrators (e.g. reindex Solr) and backend for Datastore Search.
 - `IATI-Flattener <https://github.com/IATI/iati-flattener>`__: IATI document flattener, prepares IATI docs for Indexing into Solr for the IATI Datastore.
 
 Infrastructure layer Unified Platform Repositories:
