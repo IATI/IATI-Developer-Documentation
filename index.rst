@@ -30,3 +30,5 @@ Contents:
    xquery
    normative-content
    non-functional-requirements
+   software-versioning
+   software-deprecation-process

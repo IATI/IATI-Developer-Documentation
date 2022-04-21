@@ -24,8 +24,8 @@ Our Gitflow
 2. Bug fixes and feature work should be branched off from the dev branch.
 3. Pull requests from these branches are then made to the dev branch.
 4. Code reviews for pull requests are made in local environments.
-5. The dev branch is deployed and tested in a development environment or server.
-6. Once the feature branches have been merged, deployed and tested in the development environment, a pull request can be made from the dev branch to the main branch.
+5. The develop branch is deployed and tested in a development environment or server.
+6. Once the feature branches have been merged, deployed and tested in the development environment, a pull request can be made from the develop branch to the main branch.
 7. The main branch is then deployed to the live environment when a GitHub Release is created.
 
   - Only the main branch should be deployed to live environments.
