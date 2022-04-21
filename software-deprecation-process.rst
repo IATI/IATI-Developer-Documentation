@@ -1,7 +1,7 @@
 IATI Software Deprecation Process
 =================================
 
-IATI Software is subject to the `Software Deprecation Process <https://iatistandard.org/documents/10591/IATI_Software_Deprecation_Process.pdf>`__
+IATI Software is subject to the `Software Deprecation Process <https://iatistandard.org/documents/10614/IATI_Software_Deprecation_Process.pdf>`__
 
 IATI will follow this process when it comes to deprecating software that it provides.
 
@@ -23,9 +23,9 @@ Steps Overview:
 Deprecation Support Policy
 --------------------------
 
-During the depreciation period we will support existing users transition away from the deprecated software, but we won’t release bug fixes/enhancements to the deprecated software.
+During the deprecation period we will support existing users transition away from the deprecated software, but we won’t release bug fixes/enhancements to the deprecated software.
 
 
 .. container:: button
 
-    `Download the Software Deprecation Process <https://iatistandard.org/documents/10591/IATI_Software_Deprecation_Process.pdf>`__
+    `Download the Software Deprecation Process <https://iatistandard.org/documents/10614/IATI_Software_Deprecation_Process.pdf>`__
