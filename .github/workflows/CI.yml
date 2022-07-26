@@ -3,7 +3,7 @@ name: Build_CI_Dev
 on:
   pull_request:
     paths-ignore: # https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions#filter-pattern-cheat-sheet
-      - "**/README.md"
+      - "**/README.rst"
       - "**/dependabot.yml"
     branches:
       - develop
