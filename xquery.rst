@@ -49,6 +49,21 @@ Count distinct IATI Identifiers for a given reporting organisation
 
     count(distinct-values(//iati-activity[reporting-org/@ref='SE-6']/iati-identifier))
 
+Finding distinct IATI identifiers
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Find duplicate IATI identifiers in a group of iati-activities
+
+.. code-block:: xquery
+
+    //iati-activities/iati-activity[iati-identifier = preceding-sibling::iati-activity/iati-identifier]/iati-identifier
+
+Return the XML of activities found to be duplicate by identifier (only the duplicates, not the originals)
+
+.. code-block:: xquery
+
+    //iati-activities/iati-activity[iati-identifier = preceding-sibling::iati-activity/iati-identifier]
+
 Dates
 ^^^^^
 
