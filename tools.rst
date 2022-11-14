@@ -23,11 +23,16 @@ Application layer Unified Platform repositories:
 
 The IATI-refresher contains the applications that control the flow of the system; identifying, downloading and refreshing datasets from the Registry, and then making sure they are validated and, if appropriate, subsequently indexed into the Datastore, using services provided by the repositories below.
 
+**IAIT Standard website repositories:**
+
+- `IATI-Standard_Website <https://github.com/IATI/IATI-Standard-Website>`__: Django and Wagtail website for IATI.
+- `IATI-Reference_Generator <https://github.com/IATI/IATI-Reference-Generator>`__: Python application to generate the IATI Standard reference pages for the website
+
 **Validation specific repositories:**
 
 - `IATI-Validator_API <https://github.com/IATI/js-validator-api>`__: Pure JavaScript IATI validator implementation.
 - `IATI-Validator_Services <https://github.com/IATI/validator-services>`__: Backend microservice provider for the IATI Validator on the Unified Platform.
-- `IATI-Validator_Web <https://github.com/IATI/IATI-Validator-Web>`__: IATI Validator Angular Front-end application.
+- `IATI-Validator_Web <https://github.com/IATI/validator-web>`__: IATI Validator Vue.js Front-end application.
 
 **Datastore specific repositories:**
 
@@ -46,12 +51,10 @@ Infrastructure layer Unified Platform Repositories:
 IATI tools and website not yet part of the Unified Platform
 -----------------------------------------------------------
 
-- `IATI-Standard_Website <https://github.com/IATI/IATI-Standard-Website>`__: Django and Wagtail website for IATI.
 - `IATI-Dashboard <https://github.com/IATI/IATI-Dashboard>`__: dashboard for various metrics, generated nightly from IATI data.
 - `IATI-Stats <https://github.com/IATI/IATI-Stats>`__: application for generating JSON stats to feed the IATI Dashboard.
 - `IATI-Registry_Refresher <https://github.com/IATI/IATI-Registry-Refresher>`__: scripts to pull IATI data from the IATI registry using the CKAN API.
 - `IATI-Publishing_Statistics <https://github.com/IATI/IATI-Publishing-Statistics>`__: tables and files presenting summaries of all published IATI data.
-- `IATI-Website_Tests <https://github.com/IATI/IATI-Website-Tests>`__: sanity checks, smoke and integration tests for IATI tools.
 
 These repositories are managed and maintained by the `IATI Technical Team <https://iatistandard.org/en/about/governance/who-runs-iati/technical-team/>`__. If you wish to contribute to them, please follow the :doc:`Developer contributions <contribute>` guidelines and, for further questions, email code@iatistandard.org.
 
