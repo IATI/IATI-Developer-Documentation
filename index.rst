@@ -32,3 +32,4 @@ Contents:
    non-functional-requirements
    software-versioning
    software-deprecation-process
+   code-examples
