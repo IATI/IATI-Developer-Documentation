@@ -1,7 +1,7 @@
 Design principles
 =================
 
-IATI tools are built on design principles that allow the IATI Technical Team to make effective decisions to help reach our shared goals. IATI tools must therefore be useful, user-driven, inclusive and collaborative, accessible, and open and transparent.
+IATI tools are built on design principles that allow the IATI Secretariat to make effective decisions to help reach our shared goals. IATI tools must therefore be useful, user-driven, inclusive and collaborative, accessible, and open and transparent.
 
 Useful
 ------
