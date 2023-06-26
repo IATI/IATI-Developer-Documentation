@@ -1,15 +1,15 @@
 Code of practice
 ================
 
-The IATI technical team follows a code of practice when developing and maintaining software:
+The IATI Secretariat follows a code of practice when developing and maintaining software:
 
 - We should know which code is ‘ours’: when possible, IATI code should be a part of the IATI GitHub.
-- Projects and code should be appropriately branded. Please email the IATI technical team for branding guidelines: support@iatistandard.org
+- Projects and code should be appropriately branded. Please email the IATI Secretariat for branding guidelines: support@iatistandard.org
 - Projects and code should be in version control and present links to issue trackers and source code.
 - Code should have a document, roadmap, estimate of resources and a licence.
 - Projects should make use of `Semantic Versioning <https://semver.org>`__.
 - Updates to IATI code must not break existing functionality, except where permitted by semantic versioning practices.
-- Deployed code should be on servers available to the IATI technical team.
+- Deployed code should be on servers available to the IATI Secretariat.
 - Status of software should be indicated in deployments: development, staging and live versions should be properly identified.
 - When possible, code should log details about its usage.
 - Developers should be able to find help and useful resources easily.
@@ -29,5 +29,5 @@ Our Gitflow
 7. The main branch is then deployed to the live environment when a GitHub Release is created.
 
   - Only the main branch should be deployed to live environments.
-  - Urgent hotfixes can have pull requests done to the main branch and this should be undertaken only by the IATI Technical Team.
+  - Urgent hotfixes can have pull requests done to the main branch and this should be undertaken only by the IATI Secretariat.
   - Content and general use reviews should be done in a development environment, built using the development branch.

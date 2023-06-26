@@ -56,10 +56,10 @@ IATI tools and website not yet part of the Unified Platform
 - `IATI-Registry_Refresher <https://github.com/IATI/IATI-Registry-Refresher>`__: scripts to pull IATI data from the IATI registry using the CKAN API.
 - `IATI-Publishing_Statistics <https://github.com/IATI/IATI-Publishing-Statistics>`__: tables and files presenting summaries of all published IATI data.
 
-These repositories are managed and maintained by the `IATI Technical Team <https://iatistandard.org/en/about/governance/who-runs-iati/technical-team/>`__. If you wish to contribute to them, please follow the :doc:`Developer contributions <contribute>` guidelines and, for further questions, email code@iatistandard.org.
+These repositories are managed and maintained by the `IATI Secretariat <https://iatistandard.org/en/about/governance/who-runs-iati/>`__. If you wish to contribute to them, please follow the :doc:`Developer contributions <contribute>` guidelines and, for further questions, email code@iatistandard.org.
 
 Additional IATI tools managed by external vendors:
 --------------------------------------------------
 
 - `ckanext-iati <https://github.com/IATI/ckanext-iati>`__: CKAN extension for the IATI Registry.
-- `d-portal <https://github.com/devinit/D-Portal>`__: visualisation platform for IATI data.
+- `d-portal <https://github.com/IATI/D-Portal>`__: visualisation platform for IATI data.

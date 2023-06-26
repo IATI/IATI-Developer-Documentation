@@ -5,4 +5,4 @@ Developers can engage with IATI’s diverse technical community to learn, contri
 
 - For code-related queries, contributions, bugs, feature requests or other issues, use the corresponding repository in the `IATI's GitHub repositories <https://github.com/IATI>`__. For further information, refer to the :doc:`Developer contributions <contribute>` guidelines.
 - For queries related to the IATI Standard itself, and broader discussions involving the rest of the IATI community, use `IATI’s Connect platform <https://iaticonnect.org>`__.
-- For more in-depth queries, email the developers of the IATI Technical Team: code@iatistandard.org.
+- For more in-depth queries, email the developers of the IATI Secretariat: code@iatistandard.org.
