@@ -33,3 +33,4 @@ Contents:
    software-versioning
    software-deprecation-process
    code-examples
+   datastore-and-data-pipelines
