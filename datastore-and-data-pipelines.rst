@@ -152,7 +152,8 @@ that the data store has old data than no data (with the exception of data remova
 past, while documents were being processed there was no data in the data store. As this processing could take a few
 hours, this was a problem. (More details on this change `are on IATI Connect <https://www.iaticonnect.org/group/9/topic/proposed-update-iati-datastore>`_)
 
-The data is now available for searching via the Datastore website and API.
+The data is now available for searching via the `Datastore website <https://datastore.iatistandard.org/>`_
+and `API <https://developer.iatistandard.org/>`_.
 
 Data removal
 ~~~~~~~~~~~~
