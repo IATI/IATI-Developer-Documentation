@@ -2,7 +2,7 @@ Datastore and Data Pipelines
 ============================
 
 This document describes what happens when a publisher publishes some new data, and how data flows through the IATI
-Registry & Unified Data Pipeline to the Validator and Datastore. It is intended to help people better understand our
+Registry & Unified Platform to the Validator and Datastore. It is intended to help people better understand our
 data pipelines, and start to think about how they can write data pipelines of their own.
 
 Publishing new data
@@ -25,23 +25,24 @@ Whatever method is used, anyone who wants to fetch IATI data for their own data 
 checking the registry to find out which files they should be downloading. The file hash can be very useful here, as we
 will see shortly.
 
-The first stage of the unified data pipeline
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The first stage of the Unified Platform Data Pipeline
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The Unified Data Pipeline checks the Registry for all documents and their file hash. It stores details of what it has
-seen before and the old file hashes. In this way it can tell straight away when some new data has been published
+The Unified Platform Data Pipeline checks the Registry for all documents and their file hash. It stores details of what
+it has seen before and the old file hashes. In this way it can tell straight away when some new data has been published
 (because a file it hasn’t seen before appears in the registry or a file hash changes) and start processing it as fast
 as it can.
 
-This checking, and all the further stages of the Unified Data Platform happens 24/7. As soon  as the first stage has
-finished its work, it waits a few minutes and then starts again. In this way the system responds really quickly when a
-publisher publishes new data.
+This checking, and all the further stages of the Unified Platform Data Pipeline happens 24/7. As soon as the first stage
+has finished its work, it waits a few minutes and then starts again. In this way the system responds really quickly when
+a publisher publishes new data.
 
 Generally during working hours (and remember in an international data standard that's working hours in many different
-time zones) the unified data pipeline is always processing something, as publishers around the world update their data.
+time zones) the Unified Platform Data Pipeline is always processing something, as publishers around the world update
+their data.
 
-Once the unified data pipeline notices something has changed, the first step is to download the new data directly from
-the publisher and store it.
+Once the Unified Platform Data Pipeline notices something has changed, the first step is to download the new data
+directly from the publisher and store it.
 
 Other data pipelines that do not use the file hash
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -56,8 +57,8 @@ file hash; it means you can build a system that responds much faster and uses mu
 Some other data standards do not make file hashes available at their registries, and so the only way to build a data
 pipeline there is to download all the data regularly. This is a very nice feature of IATI Registry.
 
-Further stages of the unified data pipeline
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Further stages of the Unified Platform Data Pipeline
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Once new data has been downloaded, it goes through several stages.
 
@@ -165,10 +166,10 @@ If a publisher wishes to remove data it is important to log into the registry an
 merely delete the data file from their own systems then tools may interpret this as a temporary server error and carry
 on displaying the old data for a bit (the IATI Datastore will do this).
 
-When this happens tools should try and remove the data as soon as they can. In the case of the Unified Data Platform the
-first stage that checks the registry constantly will notice a file which it previously knew about is now gone. When it
-notices this it will delete the data for the file straight away. Thus the unified data platform removes data really
-quickly.
+When this happens tools should try and remove the data as soon as they can. In the case of the Unified Platform Data
+Pipeline the first stage that checks the registry constantly will notice a file which it previously knew about is now
+gone. When it notices this it will delete the data for the file straight away. Thus the Unified Platform Data Pipeline
+removes data really quickly.
 
 For other data pipelines that don't use the data hash and rely on downloading all the data every night, removal is not
 so fast. You have to wait for the next set of downloads and processing for that download to happen. It can be a day or
